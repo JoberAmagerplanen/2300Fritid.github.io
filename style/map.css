@@ -1,0 +1,318 @@
+/* ===========================
+   Map Styling (Aktiviteter på kort)
+   =========================== */
+
+/* ===== FILTER BUTTONS ===== */
+
+#filter-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  max-width: 1000px;
+}
+
+.filter-button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: white;
+  opacity: 0.5;
+  transform: scale(0.9);
+}
+
+/* Kategori-specifikke farver */
+.filter-button.fodbold {
+  background-color: #2ecc71;
+}
+
+.filter-button.dans {
+  background-color: #3498db;
+}
+
+.filter-button.krea-kultur {
+  background-color: #e67e22;
+}
+
+.filter-button.boksning {
+  background-color: #f1a3d6;
+}
+
+.filter-button.andet {
+  background-color: #a0522d;
+}
+
+/* Aktiv tilstand */
+.filter-button.active {
+  opacity: 1;
+  transform: scale(1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.filter-button.active:hover {
+  transform: scale(1.05);
+}
+
+.filter-button:hover:not(.active) {
+  opacity: 0.7;
+}
+
+/* ===== MAP CONTAINER ===== */
+
+#map-container {
+  position: relative;
+  margin: 2rem auto;
+  max-width: 100%;
+  padding: 0 1rem;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#map-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* ===== MAP PINS ===== */
+
+.map-pin {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+.map-pin.hidden {
+  display: none;
+}
+
+.map-pin:hover {
+  transform: translate(-50%, -50%) scale(1.2);
+  z-index: 20;
+}
+
+.pin-icon {
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+/* Pin-farver baseret på kategori */
+.map-pin.fodbold {
+  color: #2ecc71; /* Grøn */
+}
+
+.map-pin.dans {
+  color: #3498db; /* Blå */
+}
+
+.map-pin.krea-kultur {
+  color: #e67e22; /* Orange */
+}
+
+.map-pin.boksning {
+  color: #f1a3d6; /* Lyserosa */
+}
+
+.map-pin.andet {
+  color: #a0522d; /* Brun */
+}
+
+/* ===== POPUP ===== */
+
+.activity-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.popup-content {
+  background-color: white;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  position: relative;
+  animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.popup-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #999;
+  transition: color 0.3s ease;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-close:hover {
+  color: #333;
+}
+
+.popup-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #eee;
+}
+
+.popup-header h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  flex: 1;
+}
+
+.popup-badge {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Badge-farver baseret på kategori */
+.popup-badge.fodbold {
+  background-color: #2ecc71;
+}
+
+.popup-badge.dans {
+  background-color: #3498db;
+}
+
+.popup-badge.krea-kultur {
+  background-color: #e67e22;
+}
+
+.popup-badge.boksning {
+  background-color: #f1a3d6;
+}
+
+.popup-badge.andet {
+  background-color: #a0522d;
+}
+
+.popup-body {
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+.popup-row {
+  margin: 0.75rem 0;
+}
+
+.popup-row strong {
+  display: block;
+  color: #333;
+  margin-bottom: 0.3rem;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 768px) {
+  #filter-buttons {
+    gap: 0.5rem;
+    margin: 1.5rem auto;
+  }
+
+  .filter-button {
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .popup-content {
+    padding: 1.5rem;
+  }
+
+  .popup-header h3 {
+    font-size: 1.2rem;
+  }
+
+  .popup-badge {
+    font-size: 0.75rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .popup-body {
+    font-size: 0.9rem;
+  }
+
+  .map-pin {
+    transform: translate(-50%, -50%) scale(0.9);
+  }
+
+  .map-pin:hover {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@media (max-width: 480px) {
+  #filter-buttons {
+    gap: 0.3rem;
+  }
+
+  .filter-button {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.8rem;
+    min-width: 90px;
+  }
+
+  .popup-content {
+    width: 95%;
+    padding: 1rem;
+  }
+
+  .popup-close {
+    width: 32px;
+    height: 32px;
+    font-size: 1.5rem;
+  }
+}
