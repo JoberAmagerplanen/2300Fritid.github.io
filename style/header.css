@@ -42,10 +42,10 @@ body {
 .navigation {
     flex: 1;
     margin-left: 3rem;
+    text-align: right;
 }
 
 .nav-list {
-   text-align: right;
     display: flex;
     list-style: none;
     gap: 2rem;
