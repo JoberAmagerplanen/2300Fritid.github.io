@@ -16,7 +16,7 @@ const activities = [
     title: "Fodboldtræning for børn",
     category: "Fodbold",
     x: 45,
-    y: 35,
+    y: 86.7,
     location: "Sundby Idrætspark",
     description: "Aktivt fodboldtræning for børn 6-12 år. Alle niveauer velkomne!",
     time: "Mandag & onsdag 16:00-17:30",
