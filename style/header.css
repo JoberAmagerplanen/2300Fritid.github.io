@@ -26,7 +26,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    align-items: right;
+    align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
 }
@@ -45,6 +45,7 @@ body {
 }
 
 .nav-list {
+   text-align: right;
     display: flex;
     list-style: none;
     gap: 2rem;
