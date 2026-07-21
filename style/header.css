@@ -17,7 +17,6 @@ body {
 /* Header */
 .header {
     background-color: #CFFFFA;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -53,7 +52,7 @@ body {
 
 .nav-link {
     text-decoration: none;
-    color: #ecf0f1;
+    color: #000000;
     font-size: 1rem;
     font-weight: 500;
     transition: color 0.3s ease, border-bottom 0.3s ease;
