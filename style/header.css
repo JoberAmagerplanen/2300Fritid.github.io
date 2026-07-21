@@ -73,17 +73,10 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    color: black;
     text-align: center;
     padding: 4rem 2rem;
 }
-
-.hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-}
-
 .hero p {
     font-size: 1.1rem;
     opacity: 0.9;
