@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2300 Fritid - Liste over aktiviteter</title>
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/map.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="billeder/2300 fritid logo.png" alt="2300 Fritid Logo">
+            </div>
+            <nav class="navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Forside</a></li>
+                    <li><a href="liste.html" class="nav-link active">Liste over aktiviteter</a></li>
+                    <li><a href="kontakt.html" class="nav-link">Kontakt os</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="hero">
+            <p>Find og udforsk lokale aktiviteter nedenfor</p>
+        </section>
+
+        <!-- Filter Buttons -->
+        <div id="filter-buttons"></div>
+
+        <!-- Map Container with Image -->
+        <div id="map-container">
+            <img id="map-image" src="billeder/1784533931131-ac014108-069d-4e92-baf0-e11fa8cb91e3_1.jpg" alt="Kort over Amagerplanen">
+        </div>
+    </main>
+
+    <!-- Load data and scripts -->
+    <script src="data/activities.js"></script>
+    <script src="js/map.js"></script>
+</body>
+</html>
