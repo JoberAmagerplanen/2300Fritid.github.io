@@ -1,0 +1,326 @@
+/* ===========================
+   Liste Styling (Aktivitetsliste)
+   =========================== */
+
+/* ===== FILTER BUTTONS ===== */
+/* Genbrug fra map.css */
+
+#filter-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  max-width: 1000px;
+}
+
+.filter-button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: white;
+  opacity: 0.5;
+  transform: scale(0.9);
+}
+
+/* Kategori-specifikke farver */
+.filter-button.fodbold {
+  background-color: #2ecc71;
+}
+
+.filter-button.dans {
+  background-color: #3498db;
+}
+
+.filter-button.krea-kultur {
+  background-color: #e67e22;
+}
+
+.filter-button.boksning {
+  background-color: #f1a3d6;
+}
+
+.filter-button.andet {
+  background-color: #a0522d;
+}
+
+/* Aktiv tilstand */
+.filter-button.active {
+  opacity: 1;
+  transform: scale(1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.filter-button.active:hover {
+  transform: scale(1.05);
+}
+
+.filter-button:hover:not(.active) {
+  opacity: 0.7;
+}
+
+/* ===== LISTE CONTAINER ===== */
+
+#activities-list {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* ===== KATEGORI SEKTION ===== */
+
+.category-section {
+  margin-bottom: 3rem;
+  transition: opacity 0.3s ease;
+}
+
+.category-section.hidden {
+  display: none;
+}
+
+.category-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 3px solid;
+}
+
+/* Farver på kategori-overskrifter */
+.category-header.fodbold {
+  border-bottom-color: #2ecc71;
+  color: #2ecc71;
+}
+
+.category-header.dans {
+  border-bottom-color: #3498db;
+  color: #3498db;
+}
+
+.category-header.krea-kultur {
+  border-bottom-color: #e67e22;
+  color: #e67e22;
+}
+
+.category-header.boksning {
+  border-bottom-color: #f1a3d6;
+  color: #f1a3d6;
+}
+
+.category-header.andet {
+  border-bottom-color: #a0522d;
+  color: #a0522d;
+}
+
+.category-header h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.category-count {
+  display: inline-block;
+  background-color: currentColor;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* ===== AKTIVITET KORT ===== */
+
+.activities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.activity-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Farver på kort-venstre-streg */
+.activity-card.fodbold {
+  border-left-color: #2ecc71;
+}
+
+.activity-card.dans {
+  border-left-color: #3498db;
+}
+
+.activity-card.krea-kultur {
+  border-left-color: #e67e22;
+}
+
+.activity-card.boksning {
+  border-left-color: #f1a3d6;
+}
+
+.activity-card.andet {
+  border-left-color: #a0522d;
+}
+
+.activity-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.activity-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.activity-badge {
+  display: inline-block;
+  width: fit-content;
+  margin-bottom: 1rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.activity-badge.fodbold {
+  background-color: #2ecc71;
+}
+
+.activity-badge.dans {
+  background-color: #3498db;
+}
+
+.activity-badge.krea-kultur {
+  background-color: #e67e22;
+}
+
+.activity-badge.boksning {
+  background-color: #f1a3d6;
+}
+
+.activity-badge.andet {
+  background-color: #a0522d;
+}
+
+.activity-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.activity-info-row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.activity-info-row strong {
+  color: #333;
+  min-width: fit-content;
+}
+
+.activity-description {
+  font-style: italic;
+  color: #666;
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #eee;
+}
+
+/* ===== TOMME KATEGORIER ===== */
+
+.category-empty {
+  text-align: center;
+  padding: 2rem;
+  color: #999;
+  font-style: italic;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 768px) {
+  #filter-buttons {
+    gap: 0.5rem;
+    margin: 1.5rem auto;
+  }
+
+  .filter-button {
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .category-header h2 {
+    font-size: 1.4rem;
+  }
+
+  .activities-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .activity-card {
+    padding: 1.25rem;
+  }
+
+  .activity-title {
+    font-size: 1.1rem;
+  }
+
+  .activity-info {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #filter-buttons {
+    gap: 0.3rem;
+  }
+
+  .filter-button {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.8rem;
+    min-width: 90px;
+  }
+
+  .category-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .category-header h2 {
+    font-size: 1.2rem;
+  }
+
+  .activity-card {
+    padding: 1rem;
+  }
+
+  .activity-title {
+    font-size: 1rem;
+  }
+
+  .activity-info {
+    font-size: 0.85rem;
+  }
+}
