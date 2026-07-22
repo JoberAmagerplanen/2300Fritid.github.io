@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2300 Fritid - Liste over aktiviteter</title>
     <link rel="stylesheet" href="style/header.css">
-    <link rel="stylesheet" href="style/map.css">
+    <link rel="stylesheet" href="style/liste.css">
 </head>
 <body>
     <!-- Header -->
@@ -27,20 +27,18 @@
     <!-- Main Content -->
     <main>
         <section class="hero">
-            <p>Find og udforsk lokale aktiviteter nedenfor</p>
+            <p>Find og udforsk lokale aktiviteter efter kategori</p>
         </section>
 
         <!-- Filter Buttons -->
         <div id="filter-buttons"></div>
 
-        <!-- Map Container with Image -->
-        <div id="map-container">
-            <img id="map-image" src="billeder/1784533931131-ac014108-069d-4e92-baf0-e11fa8cb91e3_1.jpg" alt="Kort over Amagerplanen">
-        </div>
+        <!-- Activities List Container -->
+        <div id="activities-list"></div>
     </main>
 
     <!-- Load data and scripts -->
     <script src="data/activities.js"></script>
-    <script src="js/map.js"></script>
+    <script src="js/liste.js"></script>
 </body>
 </html>
