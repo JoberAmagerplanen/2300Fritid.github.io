@@ -8,6 +8,13 @@
  * y = procent fra top (0 = helt øverst, 100 = helt nederst)
  * 
  * Så selvom billedet skalerer responsivt, placeres pins korrekt i forhold til billedets proportioner.
+ * 
+ * ===== KATEGORI-MAPPING (id til kategori) =====
+ * id: 1 = Fodbold (grøn #2ecc71)
+ * id: 2 = Dans (blå #3498db)
+ * id: 3 = Krea & kultur (orange #e67e22)
+ * id: 4 = Boksning (lyserosa #f1a3d6)
+ * id: 5 = Andet (brun #a0522d)
  */
 
 const activities = [
@@ -22,15 +29,15 @@ const activities = [
     time: "Mandag & onsdag 16:00-17:30",
     contact: "Jesper Hansen - 40 12 34 56"
   },
-    {
+  {
     id: 1,
     title: "Fodboldtræning for unge",
     category: "Fodbold",
     x: 50,
     y: 86.7,
     location: "Sundby Idrætspark",
-    description: "Aktivt fodboldtræning for børn 6-12 år. Alle niveauer velkomne!",
-    time: "Mandag & onsdag 16:00-17:30",
+    description: "Aktivt fodboldtræning for unge 13-17 år. Alle niveauer velkomne!",
+    time: "Tirsdag & torsdag 17:00-18:30",
     contact: "Jesper Hansen - 40 12 34 56"
   },
   {
@@ -65,6 +72,17 @@ const activities = [
     description: "Kom i gang med boksning. Kondition, teknik og sjov i én pakke!",
     time: "Onsdag & fredag 18:00-19:00",
     contact: "Søren Jensen - 25 11 22 33"
+  },
+  {
+    id: 5,
+    title: "Skateboard & Parkour",
+    category: "Andet",
+    x: 35,
+    y: 60,
+    location: "Skate Park Amagerplanen",
+    description: "Lær at skate eller parkour i et sjovt community. Alle niveauer velkomne!",
+    time: "Lørdag & søndag 14:00-17:00",
+    contact: "Rasmus Pedersen - 30 11 22 33"
   }
 ];
 
