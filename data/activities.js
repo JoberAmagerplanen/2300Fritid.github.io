@@ -15,77 +15,188 @@
  * id: 3 = Krea & kultur (orange #e67e22)
  * id: 4 = Boksning (lyserosa #f1a3d6)
  * id: 5 = Andet (brun #a0522d)
+ * 
+ * NOTE: x/y-koordinater herunder er sat til tilfældige placeholder-værdier
+ * og skal justeres senere efter vejledningen nederst i filen.
  */
-
 const activities = [
   {
     id: 1,
-    title: "Fodboldtræning for børn",
+    title: "Leg og Bold fodbold",
     category: "Fodbold",
-    x: 45,
-    y: 86.7,
-    location: "Sundby Idrætspark",
-    description: "Aktivt fodboldtræning for børn 6-12 år. Alle niveauer velkomne!",
-    time: "Mandag & onsdag 16:00-17:30",
-    contact: "Jesper Hansen - 40 12 34 56"
+    x: 22,
+    y: 38,
+    location: "Rød Bane",
+    description: "\"Leg og Bold\" fodbold med Idrætsprojektet, B1908 og Brobold – kræver ingen tilmelding, bare duk op!",
+    time: "Torsdage kl. 15-17",
+    contact: "Mads - 0000000"
   },
   {
     id: 1,
-    title: "Fodboldtræning for unge",
+    title: "Street fodbold (GAME)",
     category: "Fodbold",
-    x: 50,
-    y: 86.7,
-    location: "Sundby Idrætspark",
-    description: "Aktivt fodboldtræning for unge 13-17 år. Alle niveauer velkomne!",
-    time: "Tirsdag & torsdag 17:00-18:30",
-    contact: "Jesper Hansen - 40 12 34 56"
+    x: 61,
+    y: 72,
+    location: "Tvillingebanerne i Remiseparken",
+    description: "Street fodbold med GAME – kræver ingen tilmelding, bare duk op!",
+    time: "Fredage kl. 16-17",
+    contact: "Jasmin - 0000000"
   },
   {
-    id: 2,
-    title: "Moderne Dans for Voksne",
-    category: "Dans",
-    x: 55,
-    y: 45,
-    location: "Kulturhuset Fritid",
-    description: "Lær moderne danseteknikker i et sjovt og afslappet miljø.",
-    time: "Tirsdag 19:00-20:30",
-    contact: "Maria Andersen - 30 98 76 54"
-  },
-  {
-    id: 3,
-    title: "Kunstneriske Workshops",
-    category: "Krea & kultur",
-    x: 50,
+    id: 1,
+    title: "Street fodbold for piger (Street Society)",
+    category: "Fodbold",
+    x: 15,
     y: 55,
-    location: "Kunstcenter Amagerplanen",
-    description: "Maleri, tegning, keramik og kreativ skaberimulighed for alle aldre.",
-    time: "Torsdag 17:00-19:00",
-    contact: "Anna Larsen - 40 50 60 70"
+    location: "Blå Bane",
+    description: "Street fodbold for piger med Street Society – kræver ingen tilmelding, bare duk op!",
+    time: "Onsdage kl. 16.30-??",
+    contact: "??"
+  },
+  {
+    id: 1,
+    title: "Fodbold for drenge (Street Society)",
+    category: "Fodbold",
+    x: 78,
+    y: 20,
+    location: "Blå bane",
+    description: "Fodbold for drenge med Street Society – kræver ingen tilmelding, bare duk op!",
+    time: "Lørdage kl. 16-18",
+    contact: "??"
+  },
+  {
+    id: 1,
+    title: "Åben onsdagstræning (B1908)",
+    category: "Fodbold",
+    x: 47,
+    y: 63,
+    location: "Sundby Idrætspark",
+    description: "Åben onsdagstræning med B1908 - åbent for alle uanset køn, alder og fodboldevner. Se mere: https://www.b1908.dk/holdoversigt/motionshold/faelles-om-fodbold-hos-b1908/",
+    time: "Onsdage kl. 12.30-14.30",
+    contact: "Morten - 0000000"
   },
   {
     id: 4,
-    title: "Boksning for Nybegyndere",
+    title: "Boksning (ABC-boksning)",
     category: "Boksning",
-    x: 42,
-    y: 50,
-    location: "Fitnesscenter Amager",
-    description: "Kom i gang med boksning. Kondition, teknik og sjov i én pakke!",
-    time: "Onsdag & fredag 18:00-19:00",
-    contact: "Søren Jensen - 25 11 22 33"
+    x: 33,
+    y: 81,
+    location: "Blå Bane",
+    description: "Boksning med ABC-boksning – kræver ingen tilmelding, bare duk op!",
+    time: "Tirsdage kl. 16-18",
+    contact: "??"
   },
   {
     id: 5,
-    title: "Skateboard & Parkour",
+    title: "Street basket (GAME)",
     category: "Andet",
-    x: 35,
-    y: 60,
-    location: "Skate Park Amagerplanen",
-    description: "Lær at skate eller parkour i et sjovt community. Alle niveauer velkomne!",
-    time: "Lørdag & søndag 14:00-17:00",
-    contact: "Rasmus Pedersen - 30 11 22 33"
+    x: 66,
+    y: 44,
+    location: "Tvillingebanerne i Remiseparken",
+    description: "Street basket med GAME – kræver ingen tilmelding, bare duk op!",
+    time: "Onsdage kl. 16.15-17.15",
+    contact: "Jasmin - 0000000"
+  },
+  {
+    id: 5,
+    title: "Mødested Ungeværket Jokeren",
+    category: "Andet",
+    x: 12,
+    y: 27,
+    location: "Idrætscontaineren i Remiseparken",
+    description: "Mødested og aktiviteter for børn og unge arrangeret af Ungeværket Jokeren – kræver ikke klubmedlemsskab eller tilmelding, bare duk op!",
+    time: "Alle hverdage",
+    contact: "Mikail - ??"
+  },
+  {
+    id: 5,
+    title: "Buret - mødested for unge",
+    category: "Andet",
+    x: 84,
+    y: 58,
+    location: "Buret på Prags Boulevard",
+    description: "Mødested og aktiviteter for børn og unge mellem 10-17 år.",
+    time: "Alle hverdage",
+    contact: "Clifford - 0000000 eller Niko - 0000000"
+  },
+  {
+    id: 3,
+    title: "Garncafé",
+    category: "Krea & kultur",
+    x: 40,
+    y: 15,
+    location: "LykkeBazaren, Urmagerstien 26",
+    description: "Fordyb dig i garn og håndarbejde i Garncaféen i Lykkebazaren. Her kan du arbejde med tufting, strik og hækling i kreative rammer – uanset om du er nybegynder eller erfaren.",
+    time: "Mange dage kl. 14-16.30",
+    contact: "??"
+  },
+  {
+    id: 3,
+    title: "Krea café",
+    category: "Krea & kultur",
+    x: 58,
+    y: 33,
+    location: "LykkeBazaren, Urmagerstien 26",
+    description: "Fordyb dig i kreative projekter lavet af genbrugsmaterialer fra byens genbrugsstationer. Her kan du give materialer nyt liv og skabe noget helt dit eget.",
+    time: "Søndage kl. 13.30-15.30",
+    contact: "??"
+  },
+  {
+    id: 3,
+    title: "Sy-Café",
+    category: "Krea & kultur",
+    x: 25,
+    y: 68,
+    location: "Hørgårdens Nærgenbrugsstation",
+    description: "Kom i gang med dine egne sy-projekter. Sycaféen er et åbent fællesskab, hvor der er plads til fordybelse, idéudveksling og inspiration fra andre.",
+    time: "Torsdage kl. 14.30-17.30",
+    contact: "??"
+  },
+  {
+    id: 3,
+    title: "Strikkecafé",
+    category: "Krea & kultur",
+    x: 71,
+    y: 12,
+    location: "Solvang bibliotek",
+    description: "Strikkecafé. Alle er velkomne, og er du ny til strik, har vi strikkepinde og garn til rådighed. Det er helt uforpligtende og gratis at deltage.",
+    time: "Onsdage kl. 15-17",
+    contact: "??"
+  },
+  {
+    id: 5,
+    title: "Bemandede legepladser Bonderen & Byggeren",
+    category: "Andet",
+    x: 18,
+    y: 47,
+    location: "Remiseparken",
+    description: "De bemandede legepladser \"Bonderen\" og \"Byggeren\". Der tilbydes løbende aktiviteter, som er åbne for alle. Det kan blandt andet være bålaktiviteter, grønne aktiviteter, bygge insekthoteller, fuglekasser og/eller andet sjovt.",
+    time: "Alle dage",
+    contact: ""
+  },
+  {
+    id: 5,
+    title: "Bemandet legeplads Øselsgade",
+    category: "Andet",
+    x: 90,
+    y: 30,
+    location: "Øselsgade 5",
+    description: "Den bemandede legeplads i Øselsgade. Legeplads med indendørs mødested, med pool, bordtennis og bordfodbold. Man kan også være kreativ eller spille brætspil.",
+    time: "Alle dage",
+    contact: ""
+  },
+  {
+    id: 2,
+    title: "Dans for piger",
+    category: "Dans",
+    x: 52,
+    y: 78,
+    location: "A-huset",
+    description: "Dans for piger. Kræver tilmelding.",
+    time: "Onsdage kl. ??",
+    contact: "Chika"
   }
 ];
-
 /**
  * VEJLEDNING TIL JUSTERING AF PIN-PLACERING:
  * 
