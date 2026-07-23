@@ -59,7 +59,7 @@ const activities = [
     category: "Fodbold",
     x: 78,
     y: 20,
-    location: "Blå bane",
+    location: "Blå Bane",
     description: "Fodbold for drenge med Street Society – kræver ingen tilmelding, bare duk op!",
     time: "Lørdage kl. 16-18",
     contact: "??"
@@ -132,7 +132,7 @@ const activities = [
   },
   {
     id: 3,
-    title: "Krea café",
+    title: "Kreacafé",
     category: "Krea & kultur",
     x: 58,
     y: 33,
@@ -143,7 +143,7 @@ const activities = [
   },
   {
     id: 3,
-    title: "Sy-Café",
+    title: "Sycafé",
     category: "Krea & kultur",
     x: 25,
     y: 68,
