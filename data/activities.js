@@ -71,7 +71,7 @@ const activities = [
     x: 40.7,
     y: 86.2,
     location: "Sundby Idrætspark",
-    description: "Åben onsdagstræning med B1908 - åbent for alle uanset køn, alder og fodboldevner. Se mere: https://www.b1908.dk/holdoversigt/motionshold/faelles-om-fodbold-hos-b1908/",
+    description: "Åben onsdagstræning med B1908 - åbent for alle uanset køn, alder og fodboldevner.",
     time: "Onsdage kl. 12.30-14.30",
     contact: "Morten - 0000000"
   },
