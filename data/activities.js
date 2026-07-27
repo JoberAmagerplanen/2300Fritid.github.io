@@ -123,7 +123,7 @@ const activities = [
     id: 3,
     title: "Garncafé",
     category: "Krea & kultur",
-    x: 21.4, y: 
+    x: 21.4,
     y: 86.1,
     location: "LykkeBazaren, Urmagerstien 26",
     description: "Fordyb dig i garn og håndarbejde i Garncaféen i Lykkebazaren. Her kan du arbejde med tufting, strik og hækling i kreative rammer – uanset om du er nybegynder eller erfaren.",
