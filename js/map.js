@@ -62,7 +62,7 @@ function renderPin(activity, container) {
 
   // Opret SVG cirkel ikon (lille prik)
   pin.innerHTML = `
-    <svg viewBox="0 0 24 24" width="32" height="32" class="pin-icon">
+    <svg viewBox="0 0 24 24" width="20" height="20" class="pin-icon">
       <circle cx="12" cy="12" r="10" fill="currentColor" stroke="white" stroke-width="2"/>
     </svg>
   `;
