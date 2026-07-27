@@ -45,7 +45,7 @@
 }
 
 .filter-button.andet {
-  background-color: #a0522d;
+  background-color: #ed1c24;
 }
 
 /* Aktiv tilstand */
@@ -124,7 +124,7 @@
 }
 
 .map-pin.andet {
-  color: #a0522d; /* Brun */
+  color: #ed1c24; /* Rød */
 }
 
 /* ===== POPUP ===== */
@@ -238,7 +238,7 @@
 }
 
 .popup-badge.andet {
-  background-color: #a0522d;
+  background-color: #ed1c24;
 }
 
 .popup-body {
