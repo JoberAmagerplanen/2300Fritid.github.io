@@ -46,7 +46,7 @@ const activities = [
     id: 1,
     title: "Street fodbold for piger (Street Society)",
     category: "Fodbold",
-    x: 41.4,
+    x: 41,
     y: 55.5,
     location: "Blå Bane",
     description: "Street fodbold for piger med Street Society – kræver ingen tilmelding, bare duk op!",
