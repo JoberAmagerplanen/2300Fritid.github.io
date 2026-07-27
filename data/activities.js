@@ -14,7 +14,7 @@
  * id: 2 = Dans (blå #3498db)
  * id: 3 = Krea & kultur (orange #e67e22)
  * id: 4 = Boksning (lyserosa #f1a3d6)
- * id: 5 = Andet (rød #ed1c24)
+ * id: 5 = Andet (brun #a0522d)
  * 
  * NOTE: x/y-koordinater herunder er sat til tilfældige placeholder-værdier
  * og skal justeres senere efter vejledningen nederst i filen.
