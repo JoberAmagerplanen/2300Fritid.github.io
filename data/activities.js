@@ -14,7 +14,7 @@
  * id: 2 = Dans (blå #3498db)
  * id: 3 = Krea & kultur (orange #e67e22)
  * id: 4 = Boksning (lyserosa #f1a3d6)
- * id: 5 = Andet (brun #a0522d)
+ * id: 5 = Andet (rød #ed1c24)
  * 
  * NOTE: x/y-koordinater herunder er sat til tilfældige placeholder-værdier
  * og skal justeres senere efter vejledningen nederst i filen.
@@ -36,7 +36,7 @@ const activities = [
     title: "Street fodbold (GAME)",
     category: "Fodbold",
     x: 25.9,
-    y: 80.5,
+    y: 81.5,
     location: "Tvillingebanerne i Remiseparken",
     description: "Street fodbold med GAME – kræver ingen tilmelding, bare duk op!",
     time: "Fredage kl. 16-17",
