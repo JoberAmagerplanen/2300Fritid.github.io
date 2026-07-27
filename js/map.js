@@ -22,6 +22,24 @@ const activeFilters = {
 let currentPopup = null;
 
 // ===========================
+// HJÆLPEFUNKTION
+// ===========================
+
+/**
+ * Konverterer et kategorinavn til en gyldig CSS-klasse.
+ * Fjerner specialtegn som "&" og erstatter mellemrum med "-",
+ * så f.eks. "Krea & kultur" bliver til "krea-kultur" (matcher CSS-klasserne).
+ */
+function categoryToClass(category) {
+  return category
+    .toLowerCase()
+    .replace(/&/g, '')          // fjern "&"
+    .replace(/\s+/g, '-')       // erstat mellemrum (også dobbelte) med "-"
+    .replace(/-+/g, '-')        // undgå dobbelte bindestreger
+    .replace(/^-|-$/g, '');     // fjern bindestreg i start/slut
+}
+
+// ===========================
 // INITIALISERING
 // ===========================
 
@@ -54,7 +72,7 @@ function initializeMap() {
 function renderPin(activity, container) {
   // Opret pin-element
   const pin = document.createElement('div');
-  pin.className = `map-pin ${activity.category.toLowerCase().replace(/ /g, '-')}`;
+  pin.className = `map-pin ${categoryToClass(activity.category)}`;
   pin.style.left = activity.x + '%';
   pin.style.top = activity.y + '%';
   pin.setAttribute('data-activity-id', activity.id);
@@ -93,7 +111,7 @@ function openPopup(activity) {
       <button class="popup-close" aria-label="Luk popup">&times;</button>
       <div class="popup-header">
         <h3>${escapeHtml(activity.title)}</h3>
-        <span class="popup-badge ${activity.category.toLowerCase().replace(/ /g, '-')}">${escapeHtml(activity.category)}</span>
+        <span class="popup-badge ${categoryToClass(activity.category)}">${escapeHtml(activity.category)}</span>
       </div>
       <div class="popup-body">
         <p class="popup-row">
@@ -145,7 +163,7 @@ function setupFilterButtons() {
 
   categories.forEach(category => {
     const button = document.createElement('button');
-    button.className = `filter-button active ${category.toLowerCase().replace(/ /g, '-')}`;
+    button.className = `filter-button active ${categoryToClass(category)}`;
     button.textContent = category;
     button.setAttribute('data-category', category);
 
