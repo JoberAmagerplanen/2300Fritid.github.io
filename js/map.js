@@ -149,7 +149,9 @@ function openPopup(activity) {
 }
 
 /**
- * Sætter up filterknapper for hver kategori
+ * Sætter up filterknapper for hver kategori.
+ * Klik på en knap isolerer den kategori (viser kun den).
+ * Klik på den samme knap igen (når den allerede er ene aktive) nulstiller til at vise alle.
  */
 function setupFilterButtons() {
   const filterContainer = document.getElementById('filter-buttons');
@@ -160,6 +162,7 @@ function setupFilterButtons() {
   }
 
   const categories = ["Fodbold", "Dans", "Krea & kultur", "Boksning", "Andet"];
+  const buttons = [];
 
   categories.forEach(category => {
     const button = document.createElement('button');
@@ -168,16 +171,33 @@ function setupFilterButtons() {
     button.setAttribute('data-category', category);
 
     button.addEventListener('click', () => {
-      // Toggle filter
-      activeFilters[category] = !activeFilters[category];
-      
-      // Opdater knappens visual state
-      button.classList.toggle('active', activeFilters[category]);
-      
+      // Tjek om den klikkede kategori allerede er den eneste aktive
+      const isOnlyActive = activeFilters[category] &&
+        categories.every(cat => cat === category ? activeFilters[cat] : !activeFilters[cat]);
+
+      if (isOnlyActive) {
+        // Nulstil: vis alle kategorier igen
+        categories.forEach(cat => {
+          activeFilters[cat] = true;
+        });
+      } else {
+        // Isoler: vis kun den klikkede kategori
+        categories.forEach(cat => {
+          activeFilters[cat] = (cat === category);
+        });
+      }
+
+      // Opdater alle knappers visuelle state
+      buttons.forEach(btn => {
+        const btnCategory = btn.getAttribute('data-category');
+        btn.classList.toggle('active', activeFilters[btnCategory]);
+      });
+
       // Opdater pins på kortet
       updatePinVisibility();
     });
 
+    buttons.push(button);
     filterContainer.appendChild(button);
   });
 }
