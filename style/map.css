@@ -9,7 +9,7 @@
   gap: 0.75rem;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 2rem auto;
+  margin: 0.5rem auto 2rem auto;
   padding: 0 1rem;
   max-width: 1000px;
 }
@@ -19,12 +19,13 @@
   border: none;
   border-radius: 50px;
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 700;
   cursor: pointer;
   transition: all 0.3s ease;
   color: white;
-  opacity: 0.55;
-  transform: scale(0.92);
+  opacity: 1;
+  transform: scale(1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Kategori-specifikke farver */
@@ -48,19 +49,19 @@
   background-color: #a0522d;
 }
 
-/* Aktiv tilstand */
-.filter-button.active {
-  opacity: 1;
-  transform: scale(1);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.12);
+/* Ikke-aktiv tilstand (fravalgt filter) */
+.filter-button:not(.active) {
+  opacity: 0.45;
+  transform: scale(0.94);
+  box-shadow: none;
 }
 
 .filter-button.active:hover {
-  transform: scale(1.04);
+  transform: scale(1.05);
 }
 
 .filter-button:hover:not(.active) {
-  opacity: 0.75;
+  opacity: 0.7;
 }
 
 /* ===== MAP CONTAINER ===== */
@@ -261,7 +262,7 @@
 @media (max-width: 768px) {
   #filter-buttons {
     gap: 0.5rem;
-    margin: 1.5rem auto;
+    margin: 0.5rem auto 1.5rem auto;
   }
 
   .filter-button {
