@@ -70,8 +70,8 @@
   width: 100%;
   max-width: 700px;
   margin: 2rem auto;
-  padding: 0 1rem;
-  background-color: #f5f5f5;
+  padding: 0;
+  background-color: transparent;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -238,7 +238,7 @@
 }
 
 .popup-badge.andet {
-  background-color: #ed1c24;
+  background-color: #a0522d;
 }
 
 .popup-body {
