@@ -1,26 +1,23 @@
 /* ===========================
    Contact Page Styling
    =========================== */
-
 /* Hero Section */
 .contact-hero {
     text-align: center;
-    padding: 2rem 1rem;
-    background: linear-gradient(135deg, #CFFFFA 0%, rgba(207, 255, 250, 0.5) 100%);
+    padding: 1.5rem 2rem;
 }
-
 .contact-hero h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-weight: 600;
     color: #000000;
-    margin-bottom: 0.5rem;
+    margin: 0 0 0.5rem 0;
 }
-
 .contact-hero .tagline {
-    font-size: 1.2rem;
-    color: #3498db;
+    font-size: 1.1rem;
+    color: #555;
     font-weight: 500;
+    margin: 0;
 }
-
 /* Main Content Section */
 .contact-content {
     max-width: 900px;
@@ -28,44 +25,37 @@
     padding: 1rem;
     line-height: 1.8;
 }
-
 .intro-text {
     font-size: 1.05rem;
     color: #333;
     margin-bottom: 1rem;
     line-height: 1.8;
 }
-
 /* Help Section */
 .help-section {
     margin-bottom: 1rem;
 }
-
 .help-title {
     font-size: 1.05rem;
     font-weight: 600;
     color: #000000;
     margin-bottom: 0.75rem;
 }
-
 .help-list {
     list-style: disc;
     padding-left: 2rem;
     margin: 0;
 }
-
 .help-list li {
     padding: 0.25rem 0;
     color: #333;
 }
-
 .contact-info-intro {
     font-size: 1rem;
     color: #555;
     margin: 1.5rem 0 2rem 0;
     font-style: italic;
 }
-
 /* Contact Cards Section */
 .contact-content h2 {
     font-size: 1.5rem;
@@ -75,14 +65,12 @@
     padding-bottom: 0.5rem;
     border-bottom: 2px solid #CFFFFA;
 }
-
 .contact-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     margin-top: 2rem;
 }
-
 .contact-card {
     background-color: #f0f9f8;
     padding: 2rem;
@@ -91,38 +79,32 @@
     transition: all 0.3s ease;
     border: 1px solid rgba(207, 255, 250, 0.5);
 }
-
 .contact-card:hover {
     box-shadow: 0 4px 12px rgba(52, 152, 219, 0.2);
     transform: translateY(-2px);
 }
-
 .contact-card h3 {
     font-size: 1.4rem;
     color: #3498db;
     margin-bottom: 0.5rem;
 }
-
 .contact-card .organization {
     font-size: 0.95rem;
     color: #7f8c8d;
     font-weight: 500;
     margin-bottom: 1.5rem;
 }
-
 .contact-detail {
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
 }
-
 .contact-detail .label {
     font-weight: 600;
     color: #2c3e50;
     font-size: 0.9rem;
     margin-bottom: 0.3rem;
 }
-
 .contact-link {
     color: #3498db;
     text-decoration: none;
@@ -130,81 +112,63 @@
     word-break: break-word;
     transition: color 0.3s ease;
 }
-
 .contact-link:hover {
     color: #2980b9;
     text-decoration: underline;
 }
-
 /* Responsive Design */
 @media (max-width: 768px) {
     .contact-hero h1 {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
-
     .contact-hero .tagline {
         font-size: 1rem;
     }
-
     .contact-content {
         padding: 1.5rem;
     }
-
     .contact-cards {
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
-
     .contact-content h2 {
         font-size: 1.5rem;
     }
-
     .help-list {
         padding-left: 1.5rem;
     }
 }
-
 @media (max-width: 480px) {
     .contact-hero {
-        padding: 2rem 1rem;
+        padding: 1.5rem 1rem;
     }
-
     .contact-hero h1 {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
-
     .contact-hero .tagline {
         font-size: 0.95rem;
     }
-
     .contact-content {
         padding: 1rem;
     }
-
     .intro-text {
         font-size: 0.95rem;
     }
-
     .contact-card {
         padding: 1.5rem;
     }
-
     .contact-card h3 {
         font-size: 1.2rem;
     }
-
     .contact-detail .label {
         font-size: 0.85rem;
     }
-
     .contact-link {
         font-size: 0.95rem;
     }
-
     .help-list li {
         font-size: 0.95rem;
     }
-
     .help-list {
         padding-left: 1.5rem;
     }
