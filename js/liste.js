@@ -16,28 +16,28 @@
 
 // Holder styr på hvilke kategorier der er aktive filtreret
 const activeFilters = {
-  "Fodbold": true,
-  "Dans": true,
+  "Bold": true,
+  "Dans & Bevægelse": true,
   "Krea & kultur": true,
-  "Boksning": true,
+  "Kampsport": true,
   "Andet": true
 };
 
 // Kategori-mapping (id til kategori)
 const categoryMap = {
-  1: "Fodbold",
-  2: "Dans",
+  1: "Bold",
+  2: "Dans & Bevægelse",
   3: "Krea & kultur",
-  4: "Boksning",
+  4: "Kampsport",
   5: "Andet"
 };
 
 // CSS-klasse-mapping for farver
 const categoryClassMap = {
-  "Fodbold": "fodbold",
-  "Dans": "dans",
+  "Bold": "bold",
+  "Dans & Bevægelse": "dans-bevægelse",
   "Krea & kultur": "krea-kultur",
-  "Boksning": "boksning",
+  "Kampsport": "kampsport",
   "Andet": "andet"
 };
 
@@ -67,7 +67,7 @@ function setupFilterButtons() {
     return;
   }
 
-  const categories = ["Fodbold", "Dans", "Krea & kultur", "Boksning", "Andet"];
+  const categories = ["Bold", "Dans & Bevægelse", "Krea & kultur", "Kampsport", "Andet"];
   const buttons = [];
 
   categories.forEach(category => {
@@ -135,14 +135,14 @@ function renderActivitiesList() {
 
 /**
  * Grupperer aktiviteter efter deres kategori
- * Returnerer objekt: { "Fodbold": [...], "Dans": [...], ... }
+ * Returnerer objekt: { "Bold": [...], "Dans & Bevægelse": [...], ... }
  */
 function groupActivitiesByCategory() {
   const grouped = {
-    "Fodbold": [],
-    "Dans": [],
+    "Bold": [],
+    "Dans & Bevægelse": [],
     "Krea & kultur": [],
-    "Boksning": [],
+    "Kampsport": [],
     "Andet": []
   };
 
