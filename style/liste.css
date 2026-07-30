@@ -30,11 +30,11 @@
 }
 
 /* Kategori-specifikke farver */
-.filter-button.fodbold {
+.filter-button.bold {
   background-color: #2ecc71;
 }
 
-.filter-button.dans {
+.filter-button.dans-bevægelse {
   background-color: #3498db;
 }
 
@@ -42,7 +42,7 @@
   background-color: #e67e22;
 }
 
-.filter-button.boksning {
+.filter-button.kampsport {
   background-color: #f1a3d6;
 }
 
@@ -94,12 +94,12 @@
 }
 
 /* Farver på kategori-overskrifter */
-.category-header.fodbold {
+.category-header.bold {
   border-bottom-color: #2ecc71;
   color: #2ecc71;
 }
 
-.category-header.dans {
+.category-header.dans-bevægelse {
   border-bottom-color: #3498db;
   color: #3498db;
 }
@@ -109,7 +109,7 @@
   color: #e67e22;
 }
 
-.category-header.boksning {
+.category-header.kampsport {
   border-bottom-color: #f1a3d6;
   color: #f1a3d6;
 }
