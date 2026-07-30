@@ -2,21 +2,29 @@
    Map Styling (Aktiviteter på kort)
    =========================== */
 
-/* ===== FAKTABOKS ===== */
+/* ===== FAKTABOKS + KORT (side om side) ===== */
+
+.content-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
 
 .fact-box {
-  max-width: 700px;
-  margin: 1.5rem auto 2rem auto;
-  padding: 1rem 1.5rem;
+  flex: 0 0 240px;
+  padding: 1.25rem 1.25rem;
   background-color: #f0f9f8;
   border-left: 4px solid #3498db;
   border-radius: 8px;
-  text-align: center;
+  text-align: left;
 }
 
 .fact-box p {
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.95rem;
   color: #333;
   line-height: 1.6;
 }
@@ -87,9 +95,10 @@
 
 #map-container {
   position: relative;
-  width: 100%;
+  flex: 1 1 auto;
+  min-width: 0;
   max-width: 700px;
-  margin: 2rem auto;
+  margin: 0;
   padding: 0 1rem;
   background-color: #f5f5f5;
   border-radius: 8px;
@@ -279,13 +288,23 @@
 /* ===== RESPONSIVE ===== */
 
 @media (max-width: 768px) {
+  .content-row {
+    flex-direction: column;
+    margin: 1.5rem auto;
+  }
+
   .fact-box {
-    margin: 1rem auto 1.5rem auto;
+    flex: 1 1 auto;
+    width: 100%;
     padding: 0.85rem 1.1rem;
   }
 
   .fact-box p {
     font-size: 0.9rem;
+  }
+
+  #map-container {
+    max-width: 100%;
   }
 
   #filter-buttons {
