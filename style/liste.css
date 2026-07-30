@@ -155,11 +155,11 @@
 }
 
 /* Farver på kort-venstre-streg */
-.activity-card.fodbold {
+.activity-card.bold {
   border-left-color: #2ecc71;
 }
 
-.activity-card.dans {
+.activity-card.dans-bevægelse {
   border-left-color: #3498db;
 }
 
@@ -167,7 +167,7 @@
   border-left-color: #e67e22;
 }
 
-.activity-card.boksning {
+.activity-card.kampsport {
   border-left-color: #f1a3d6;
 }
 
@@ -198,11 +198,11 @@
   font-weight: 600;
 }
 
-.activity-badge.fodbold {
+.activity-badge.bold {
   background-color: #2ecc71;
 }
 
-.activity-badge.dans {
+.activity-badge.dans-bevægelse {
   background-color: #3498db;
 }
 
@@ -210,7 +210,7 @@
   background-color: #e67e22;
 }
 
-.activity-badge.boksning {
+.activity-badge.kampsport {
   background-color: #f1a3d6;
 }
 
