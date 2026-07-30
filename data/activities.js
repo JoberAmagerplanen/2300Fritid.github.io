@@ -10,10 +10,10 @@
  * Så selvom billedet skalerer responsivt, placeres pins korrekt i forhold til billedets proportioner.
  * 
  * ===== KATEGORI-MAPPING (id til kategori) =====
- * id: 1 = Fodbold (grøn #2ecc71)
- * id: 2 = Dans (blå #3498db)
+ * id: 1 = Bold (grøn #2ecc71)
+ * id: 2 = Dans & Bevægelse (blå #3498db)
  * id: 3 = Krea & kultur (orange #e67e22)
- * id: 4 = Boksning (lyserosa #f1a3d6)
+ * id: 4 = Kampsport (lyserosa #f1a3d6)
  * id: 5 = Andet (brun #a0522d)
  * 
  * NOTE: x/y-koordinater herunder er sat til tilfældige placeholder-værdier
@@ -22,30 +22,30 @@
 const activities = [
   {
     id: 1,
-    title: "Leg og Bold fodbold",
-    category: "Fodbold",
-    x: 9.5,
-    y: 48.1,
+    title: "Leg og Bold (Idrætsprojektet)",
+    category: "Bold",
+    x: 14.9,
+    y: 49.9,
     location: "Rød Bane",
     description: "\"Leg og Bold\" fodbold med Idrætsprojektet, B1908 og Brobold – kræver ingen tilmelding, bare duk op!",
     time: "Torsdage kl. 15-17",
-    contact: "Mads - 0000000"
+    contact: "??"
   },
   {
     id: 1,
     title: "Street fodbold (GAME)",
-    category: "Fodbold",
+    category: "Bold",
     x: 25.9,
     y: 81.5,
     location: "Tvillingebanerne i Remiseparken",
     description: "Street fodbold med GAME – kræver ingen tilmelding, bare duk op!",
     time: "Fredage kl. 16-17",
-    contact: "Jasmin - 0000000"
+    contact: "??"
   },
   {
     id: 1,
     title: "Street fodbold for piger (Street Society)",
-    category: "Fodbold",
+    category: "Bold",
     x: 39.9,
     y: 54,
     location: "Blå Bane",
@@ -56,7 +56,7 @@ const activities = [
   {
     id: 1,
     title: "Fodbold for drenge (Street Society)",
-    category: "Fodbold",
+    category: "Bold",
     x: 42.8,
     y: 57,
     location: "Blå Bane",
@@ -67,18 +67,18 @@ const activities = [
   {
     id: 1,
     title: "Åben onsdagstræning (B1908)",
-    category: "Fodbold",
+    category: "Bold",
     x: 40.7,
     y: 86.2,
     location: "Sundby Idrætspark",
     description: "Åben onsdagstræning med B1908 - åbent for alle uanset køn, alder og fodboldevner.",
     time: "Onsdage kl. 12.30-14.30",
-    contact: "Morten - 0000000"
+    contact: "??"
   },
   {
     id: 4,
     title: "Boksning (ABC-boksning)",
-    category: "Boksning",
+    category: "Kampsport",
     x: 41.3,
     y: 56,
     location: "Blå Bane",
@@ -89,24 +89,24 @@ const activities = [
   {
     id: 5,
     title: "Street basket (GAME)",
-    category: "Andet",
+    category: "Bold",
     x: 27.5,
     y: 81.8,
     location: "Tvillingebanerne i Remiseparken",
     description: "Street basket med GAME – kræver ingen tilmelding, bare duk op!",
     time: "Onsdage kl. 16.15-17.15",
-    contact: "Jasmin - 0000000"
+    contact: "??"
   },
   {
     id: 5,
-    title: "Mødested Ungeværket Jokeren",
+    title: "Idrætscontaineren - mødested for unge",
     category: "Andet",
     x: 24.8,
     y: 78.7,
     location: "Idrætscontaineren i Remiseparken",
     description: "Mødested og aktiviteter for børn og unge arrangeret af Ungeværket Jokeren – kræver ikke klubmedlemsskab eller tilmelding, bare duk op!",
     time: "Alle hverdage",
-    contact: "Mikail - ??"
+    contact: "??"
   },
   {
     id: 5,
@@ -115,9 +115,9 @@ const activities = [
     x: 60.6,
     y: 9.1,
     location: "Buret på Prags Boulevard",
-    description: "Mødested og aktiviteter for børn og unge mellem 10-17 år.",
+    description: "Mødested og aktiviteter for børn og unge mellem 10-17 år – kræver ikke klubmedlemsskab eller tilmelding, bare duk op!",
     time: "Alle hverdage",
-    contact: "Clifford - 0000000 eller Niko - 0000000"
+    contact: "??"
   },
   {
     id: 3,
@@ -167,7 +167,7 @@ const activities = [
     id: 5,
     title: "Bemandede legepladser Bonderen & Byggeren",
     category: "Andet",
-    x: 31.7,
+    x: 32.1,
     y: 73.5,
     location: "Remiseparken",
     description: "De bemandede legepladser \"Bonderen\" og \"Byggeren\". Der tilbydes løbende aktiviteter, som er åbne for alle. Det kan blandt andet være bålaktiviteter, grønne aktiviteter, bygge insekthoteller, fuglekasser og/eller andet sjovt.",
@@ -188,13 +188,13 @@ const activities = [
   {
     id: 2,
     title: "Dans for piger",
-    category: "Dans",
+    category: "Dans & Bevægelse",
     x: 10.4,
     y: 45.1,
     location: "A-huset",
     description: "Dans for piger. Kræver tilmelding.",
     time: "Onsdage kl. ??",
-    contact: "Chika"
+    contact: "Chika ??"
   }
 ];
 /**
