@@ -2,6 +2,25 @@
    Map Styling (Aktiviteter på kort)
    =========================== */
 
+/* ===== FAKTABOKS ===== */
+
+.fact-box {
+  max-width: 700px;
+  margin: 1.5rem auto 2rem auto;
+  padding: 1rem 1.5rem;
+  background-color: #f0f9f8;
+  border-left: 4px solid #3498db;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.fact-box p {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
 /* ===== FILTER BUTTONS ===== */
 
 #filter-buttons {
@@ -29,11 +48,11 @@
 }
 
 /* Kategori-specifikke farver */
-.filter-button.bold {
+.filter-button.fodbold {
   background-color: #2ecc71;
 }
 
-.filter-button.dans-bevægelse {
+.filter-button.dans {
   background-color: #3498db;
 }
 
@@ -41,7 +60,7 @@
   background-color: #e67e22;
 }
 
-.filter-button.kampsport {
+.filter-button.boksning {
   background-color: #f1a3d6;
 }
 
@@ -108,11 +127,11 @@
 }
 
 /* Pin-farver baseret på kategori */
-.map-pin.bold {
+.map-pin.fodbold {
   color: #2ecc71; /* Grøn */
 }
 
-.map-pin.dans-bevægelse {
+.map-pin.dans {
   color: #3498db; /* Blå */
 }
 
@@ -120,7 +139,7 @@
   color: #e67e22; /* Orange */
 }
 
-.map-pin.kampsport {
+.map-pin.boksning {
   color: #f1a3d6; /* Lyserosa */
 }
 
@@ -222,11 +241,11 @@
 }
 
 /* Badge-farver baseret på kategori */
-.popup-badge.bold {
+.popup-badge.fodbold {
   background-color: #2ecc71;
 }
 
-.popup-badge.dans-bevægelse {
+.popup-badge.dans {
   background-color: #3498db;
 }
 
@@ -234,7 +253,7 @@
   background-color: #e67e22;
 }
 
-.popup-badge.kampsport {
+.popup-badge.boksning {
   background-color: #f1a3d6;
 }
 
@@ -260,6 +279,15 @@
 /* ===== RESPONSIVE ===== */
 
 @media (max-width: 768px) {
+  .fact-box {
+    margin: 1rem auto 1.5rem auto;
+    padding: 0.85rem 1.1rem;
+  }
+
+  .fact-box p {
+    font-size: 0.9rem;
+  }
+
   #filter-buttons {
     gap: 0.5rem;
     margin: 0.5rem auto 1.5rem auto;
