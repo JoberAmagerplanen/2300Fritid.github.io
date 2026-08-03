@@ -18,7 +18,7 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 1rem;
-    text-align: center;
+    text-align: left;
     line-height: 1.8;
     color: #333;
 }
@@ -54,6 +54,13 @@
     font-size: 1.05rem;
     margin: 0.75rem 0;
 }
+/* "Vi har fokus på:" - fed tekst, matcher .help-title i kontakt.css */
+.help-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 0.75rem;
+}
 /* Help list (kopieret fra kontakt.css så stilen matcher) */
 .help-list {
     list-style: disc;
@@ -63,10 +70,6 @@
 .help-list li {
     padding: 0.25rem 0;
     color: #333;
-}
-/* Venstrejuster listen, så den ikke arver centreringen fra .about-content */
-.about-content .help-list {
-    text-align: left;
 }
 /* Responsive adjustments */
 @media (max-width: 768px) {
