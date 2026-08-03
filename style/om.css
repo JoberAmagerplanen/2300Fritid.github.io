@@ -2,7 +2,6 @@
    Om-side Styling (om.css)
    Matcher kontakt.css visuelle stil
    =========================== */
-
 /* Hero Section */
 .about-hero {
     text-align: center;
@@ -14,7 +13,6 @@
     color: #000;
     margin: 0 0 0.5rem 0;
 }
-
 /* Main content */
 .about-content {
     max-width: 800px;
@@ -24,7 +22,6 @@
     line-height: 1.8;
     color: #333;
 }
-
 /* Partner logos */
 .partner-logos {
     display: flex;
@@ -44,7 +41,6 @@
     background: transparent;
     padding: 4px;
 }
-
 /* Card-like container (samme visuelle stil som kontakt) */
 .about-content .card {
     background-color: #f0f9f8;
@@ -53,13 +49,11 @@
     border: 1px solid rgba(207, 255, 250, 0.5);
     box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
-
 /* Typografi tweaks */
 .about-content p {
     font-size: 1.05rem;
     margin: 0.75rem 0;
 }
-
 /* Help list (kopieret fra kontakt.css så stilen matcher) */
 .help-list {
     list-style: disc;
@@ -70,7 +64,10 @@
     padding: 0.25rem 0;
     color: #333;
 }
-
+/* Venstrejuster listen, så den ikke arver centreringen fra .about-content */
+.about-content .help-list {
+    text-align: left;
+}
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .about-hero h1 {
