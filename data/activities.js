@@ -172,7 +172,7 @@ const activities = [
     location: "Remiseparken",
     description: "De bemandede legepladser \"Bonderen\" og \"Byggeren\". Der tilbydes løbende aktiviteter, som er åbne for alle. Det kan blandt andet være bålaktiviteter og grønne aktiviteter",
     time: "Alle dage",
-    contact: ""
+    contact: "https://legeplads.kk.dk/vaelg-en-bydel/amager/remiseparken-bonderen-og-byggeren-b"
   },
   {
     id: 5,
@@ -183,7 +183,7 @@ const activities = [
     location: "Øselsgade 5",
     description: "Den bemandede legeplads i Øselsgade. Legeplads med indendørs mødested, med pool, bordtennis og bordfodbold. Man kan også være kreativ eller spille brætspil.",
     time: "Alle dage",
-    contact: ""
+    contact: "https://legeplads.kk.dk/vaelg-en-bydel/amager/oeselsgade-b"
   },
   {
     id: 2,
