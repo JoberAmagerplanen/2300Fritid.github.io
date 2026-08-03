@@ -128,25 +128,6 @@
   color: #a0522d; /* Brun */
 }
 
-/* ===== FAKTABOKS (under kortet, centreret) ===== */
-
-.fact-box {
-  max-width: 700px;
-  margin: 0 auto 2rem auto;
-  padding: 1rem 1.5rem;
-  background-color: #f0f9f8;
-  border-left: 4px solid #3498db;
-  border-radius: 8px;
-  text-align: center;
-}
-
-.fact-box p {
-  margin: 0;
-  font-size: 1rem;
-  color: #333;
-  line-height: 1.6;
-}
-
 /* ===== POPUP ===== */
 
 .activity-popup {
@@ -287,15 +268,6 @@
   .filter-button {
     padding: 0.45rem 0.9rem;
     font-size: 0.85rem;
-  }
-
-  .fact-box {
-    margin: 0 auto 1.5rem auto;
-    padding: 0.85rem 1.1rem;
-  }
-
-  .fact-box p {
-    font-size: 0.9rem;
   }
 
   .popup-content {
