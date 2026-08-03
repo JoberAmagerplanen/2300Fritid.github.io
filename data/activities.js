@@ -44,23 +44,23 @@ const activities = [
   },
   {
     id: 1,
-    title: "Street fodbold for piger (Street Society)",
+    title: "Street café for piger (Street Society)",
     category: "Bold",
     x: 41.9,
     y: 54.2,
     location: "Blå Bane",
     description: "Street fodbold for piger med Street Society – kræver ingen tilmelding, bare duk op!",
-    time: "Onsdage kl. 16.30-??",
+    time: "Onsdage kl. 16.30-18.00",
     contact: "??"
   },
   {
     id: 1,
-    title: "Fodbold for drenge (Street Society)",
+    title: "Lørdagsbold for drenge (Street Society)",
     category: "Bold",
     x: 43,
     y: 57.8,
     location: "Blå Bane",
-    description: "Fodbold for drenge med Street Society – kræver ingen tilmelding, bare duk op!",
+    description: "Street fodbold for drenge med Street Society – kræver ingen tilmelding, bare duk op!",
     time: "Lørdage kl. 16-18",
     contact: "??"
   },
@@ -126,7 +126,7 @@ const activities = [
     x: 24.2,
     y: 89.8,
     location: "LykkeBazaren, Urmagerstien 26",
-    description: "Fordyb dig i garn og håndarbejde i Garncaféen i Lykkebazaren. Her kan du arbejde med tufting, strik og hækling i kreative rammer – uanset om du er nybegynder eller erfaren.[...]",
+    description: "Fordyb dig i garn og håndarbejde i Garncaféen i Lykkebazaren. Her kan du arbejde med tufting, strik og hækling i kreative rammer, uanset om du er nybegynder eller erfaren – kræver ingen tilmelding, bare duk op!",
     time: "Mange dage kl. 14-16.30",
     contact: "??"
   },
@@ -137,7 +137,7 @@ const activities = [
     x: 22.1,
     y: 90,
     location: "LykkeBazaren, Urmagerstien 26",
-    description: "Fordyb dig i kreative projekter lavet af genbrugsmaterialer fra byens genbrugsstationer. Her kan du give materialer nyt liv og skabe noget helt dit eget.",
+    description: "Fordyb dig i kreative projekter lavet af genbrugsmaterialer fra byens genbrugsstationer. Her kan du give materialer nyt liv og skabe noget helt dit eget – kræver ingen tilmelding, bare duk op!",
     time: "Søndage kl. 13.30-15.30",
     contact: "??"
   },
@@ -148,7 +148,7 @@ const activities = [
     x: 23.3,
     y: 50.4,
     location: "Hørgårdens Nærgenbrugsstation",
-    description: "Kom i gang med dine egne sy-projekter. Sycaféen er et åbent fællesskab, hvor der er plads til fordybelse, idéudveksling og inspiration fra andre.",
+    description: "Kom i gang med dine egne sy-projekter. Sycaféen er et åbent fællesskab, hvor der er plads til fordybelse, idéudveksling og inspiration fra andre – kræver ingen tilmelding, bare duk op!",
     time: "Torsdage kl. 14.30-17.30",
     contact: "??"
   },
@@ -159,7 +159,7 @@ const activities = [
     x: 19.7,
     y: 93.8,
     location: "Solvang bibliotek",
-    description: "Strikkecafé. Alle er velkomne, og er du ny til strik, har vi strikkepinde og garn til rådighed. Det er helt uforpligtende og gratis at deltage.",
+    description: "Strikkecafé. Alle er velkomne, og er du ny til strik, har vi strikkepinde og garn til rådighed. Det er helt uforpligtende og gratis at deltage – kræver ingen tilmelding, bare duk op!",
     time: "Onsdage kl. 15-17",
     contact: "??"
   },
@@ -170,7 +170,7 @@ const activities = [
     x: 32.1,
     y: 73.9,
     location: "Remiseparken",
-    description: "De bemandede legepladser \"Bonderen\" og \"Byggeren\". Der tilbydes løbende aktiviteter, som er åbne for alle. Det kan blandt andet være bålaktiviteter, grønne aktiviteter,[...]",
+    description: "De bemandede legepladser \"Bonderen\" og \"Byggeren\". Der tilbydes løbende aktiviteter, som er åbne for alle. Det kan blandt andet være bålaktiviteter og grønne aktiviteter",
     time: "Alle dage",
     contact: ""
   },
@@ -203,7 +203,7 @@ const activities = [
     x: 19,
     y: 42.8,
     location: "Laden",
-    description: "?",
+    description: "Boksning med Street Society – kræver ingen tilmelding, bare duk op!",
     time: "?",
     contact: "?"
   }
