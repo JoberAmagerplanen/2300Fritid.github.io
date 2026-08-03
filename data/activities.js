@@ -11,7 +11,7 @@
  * 
  * ===== KATEGORI-MAPPING (id til kategori) =====
  * id: 1 = Bold (grøn #2ecc71)
- * id: 2 = Dans & Bevægelse (blå #3498db)
+ * id: 2 = Dans & bevægelse (blå #3498db)
  * id: 3 = Krea & kultur (orange #e67e22)
  * id: 4 = Kampsport (lyserosa #f1a3d6)
  * id: 5 = Andet (brun #a0522d)
@@ -188,7 +188,7 @@ const activities = [
   {
     id: 2,
     title: "Dans for piger",
-    category: "Dans & Bevægelse",
+    category: "Dans & bevægelse",
     x: 10.4,
     y: 45.1,
     location: "A-huset",
