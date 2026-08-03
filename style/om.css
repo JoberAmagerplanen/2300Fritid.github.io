@@ -54,6 +54,10 @@
     font-size: 1.05rem;
     margin: 0.75rem 0;
 }
+/* Fjerner mellemrummet under dette specifikke afsnit (og over det næste) */
+.about-content p.no-gap-below {
+    margin-bottom: 0;
+}
 /* "Vi har fokus på:" - fed tekst, matcher .help-title i kontakt.css */
 .help-title {
     font-size: 1.05rem;
