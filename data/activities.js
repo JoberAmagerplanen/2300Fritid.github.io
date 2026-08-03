@@ -115,8 +115,8 @@ const activities = [
     x: 60.6,
     y: 9.1,
     location: "Buret på Prags Boulevard",
-    description: "Mødested og aktiviteter for børn og unge mellem 10-17 år – kræver ikke klubmedlemsskab eller tilmelding, bare duk op!",
-    time: "Alle hverdage",
+    description: "Mødested og aktiviteter for børn og unge mellem 10-17 år arrangeret af Ungeværket Amager Nordøst– kræver ikke klubmedlemsskab eller tilmelding, bare duk op!",
+    time: "Alle hverdage kl. 14-17.30. Lørdage i ulige uger kl. 10.30-13.30",
     contact: "??"
   },
   {
