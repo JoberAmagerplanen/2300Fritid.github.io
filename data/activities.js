@@ -126,7 +126,7 @@ const activities = [
     x: 24.2,
     y: 89.8,
     location: "LykkeBazaren, Urmagerstien 26",
-    description: "Fordyb dig i garn og håndarbejde i Garncaféen i Lykkebazaren. Her kan du arbejde med tufting, strik og hækling i kreative rammer – uanset om du er nybegynder eller erfaren.",
+    description: "Fordyb dig i garn og håndarbejde i Garncaféen i Lykkebazaren. Her kan du arbejde med tufting, strik og hækling i kreative rammer – uanset om du er nybegynder eller erfaren.[...]",
     time: "Mange dage kl. 14-16.30",
     contact: "??"
   },
@@ -170,7 +170,7 @@ const activities = [
     x: 32.1,
     y: 73.5,
     location: "Remiseparken",
-    description: "De bemandede legepladser \"Bonderen\" og \"Byggeren\". Der tilbydes løbende aktiviteter, som er åbne for alle. Det kan blandt andet være bålaktiviteter, grønne aktiviteter, bygge insekthoteller, fuglekasser og/eller andet sjovt.",
+    description: "De bemandede legepladser \"Bonderen\" og \"Byggeren\". Der tilbydes løbende aktiviteter, som er åbne for alle. Det kan blandt andet være bålaktiviteter, grønne aktiviteter,[...]",
     time: "Alle dage",
     contact: ""
   },
@@ -195,6 +195,17 @@ const activities = [
     description: "Dans for piger. Kræver tilmelding.",
     time: "Onsdage kl. ??",
     contact: "Chika ??"
+  },
+  {
+    id: 4,
+    title: "Boksning (Street Society)",
+    category: "Kampsport",
+    x: 50,
+    y: 50,
+    location: "Laden",
+    description: "?",
+    time: "?",
+    contact: "?"
   }
 ];
 /**
