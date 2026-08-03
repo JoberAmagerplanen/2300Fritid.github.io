@@ -60,6 +60,17 @@
     margin: 0.75rem 0;
 }
 
+/* Help list (kopieret fra kontakt.css så stilen matcher) */
+.help-list {
+    list-style: disc;
+    padding-left: 2rem;
+    margin: 0;
+}
+.help-list li {
+    padding: 0.25rem 0;
+    color: #333;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .about-hero h1 {
@@ -70,6 +81,9 @@
     }
     .partner-logos {
         gap: 1rem;
+    }
+    .help-list {
+        padding-left: 1.5rem;
     }
 }
 @media (max-width: 480px) {
@@ -84,5 +98,8 @@
     }
     .partner-logos img {
         max-height: 60px; /* mindre på små skærme */
+    }
+    .help-list {
+        padding-left: 1.5rem;
     }
 }
