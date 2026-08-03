@@ -1,0 +1,88 @@
+/* ===========================
+   Om-side Styling (om.css)
+   Matcher kontakt.css visuelle stil
+   =========================== */
+
+/* Hero Section */
+.about-hero {
+    text-align: center;
+    padding: 1.5rem 2rem;
+}
+.about-hero h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000;
+    margin: 0 0 0.5rem 0;
+}
+
+/* Main content */
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    line-height: 1.8;
+    color: #333;
+}
+
+/* Partner logos */
+.partner-logos {
+    display: flex;
+    flex-wrap: wrap; /* wrap for smaller screens */
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: center;
+    margin-top: 1.5rem;
+    padding: 0 0.5rem;
+}
+.partner-logos img {
+    max-height: 60px; /* begræns logo-højde */
+    width: auto;
+    object-fit: contain;
+    display: block;
+    border-radius: 8px;
+    background: transparent;
+    padding: 4px;
+}
+
+/* Card-like container (samme visuelle stil som kontakt) */
+.about-content .card {
+    background-color: #f0f9f8;
+    padding: 1rem;
+    border-radius: 12px;
+    border: 1px solid rgba(207, 255, 250, 0.5);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+/* Typografi tweaks */
+.about-content p {
+    font-size: 1.05rem;
+    margin: 0.75rem 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .about-hero h1 {
+        font-size: 1.7rem;
+    }
+    .about-content {
+        padding: 1.5rem;
+    }
+    .partner-logos {
+        gap: 1rem;
+    }
+}
+@media (max-width: 480px) {
+    .about-hero {
+        padding: 1.5rem 1rem;
+    }
+    .about-hero h1 {
+        font-size: 1.5rem;
+    }
+    .about-content {
+        padding: 1rem;
+    }
+    .partner-logos img {
+        max-height: 50px;
+    }
+}
