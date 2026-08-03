@@ -128,7 +128,7 @@ const activities = [
     location: "LykkeBazaren, Urmagerstien 26",
     description: "Fordyb dig i garn og håndarbejde i Garncaféen i Lykkebazaren. Her kan du arbejde med tufting, strik og hækling i kreative rammer, uanset om du er nybegynder eller erfaren – kræver ingen tilmelding, bare duk op!",
     time: "Mandage kl. 14-16.30",
-    contact: "??"
+    contact: "https://kbhgenbruger.kk.dk/aktiviteter-og-events/garn-cafe-paa-remiseparken-naergenbrugsstation-lykkebazaren-0"
   },
   {
     id: 3,
@@ -139,7 +139,7 @@ const activities = [
     location: "LykkeBazaren, Urmagerstien 26",
     description: "Fordyb dig i kreative projekter lavet af genbrugsmaterialer fra byens genbrugsstationer. Her kan du give materialer nyt liv og skabe noget helt dit eget – kræver ingen tilmelding, bare duk op!",
     time: "Søndage kl. 13.30-15.30",
-    contact: "??"
+    contact: "https://kbhgenbruger.kk.dk/aktiviteter-og-events/krea-cafe-i-remiseparken-naergenbrugsstation-lykkebazaren-0"
   },
   {
     id: 3,
@@ -150,7 +150,7 @@ const activities = [
     location: "Hørgårdens Nærgenbrugsstation",
     description: "Kom i gang med dine egne sy-projekter. Sycaféen er et åbent fællesskab, hvor der er plads til fordybelse, idéudveksling og inspiration fra andre – kræver ingen tilmelding, bare duk op!",
     time: "Torsdage kl. 14.30-17.30",
-    contact: "??"
+    contact: "https://kbhgenbruger.kk.dk/aktiviteter-og-events/sy-cafe-paa-hoergaarden-naergenbrugsstation-2"
   },
   {
     id: 3,
@@ -161,7 +161,7 @@ const activities = [
     location: "Solvang bibliotek",
     description: "Strikkecafé. Alle er velkomne, og er du ny til strik, har vi strikkepinde og garn til rådighed. Det er helt uforpligtende og gratis at deltage – kræver ingen tilmelding, bare duk op!",
     time: "Onsdage kl. 15-17",
-    contact: "??"
+    contact: "https://bibliotek.kk.dk/solvang-bibliotek/aktiviteter/faellesskaber/kreative-faellesskaber/strikkecafe"
   },
   {
     id: 5,
