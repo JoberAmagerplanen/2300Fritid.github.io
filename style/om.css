@@ -5,7 +5,7 @@
 /* Hero Section */
 .about-hero {
     text-align: center;
-    padding: 1.5rem 2rem;
+    padding: 1.5rem 2rem 0.5rem 2rem;
 }
 .about-hero h1 {
     font-size: 2rem;
@@ -17,7 +17,7 @@
 .about-content {
     max-width: 800px;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 0 1rem 1rem 1rem;
     text-align: left;
     line-height: 1.8;
     color: #333;
@@ -63,6 +63,17 @@
     font-size: 1.05rem;
     font-weight: 600;
     color: #000000;
+    margin-bottom: 0.75rem;
+}
+/* "Vi har fokus på" i en fremhævet boks */
+.focus-box {
+    background-color: #f0f9f8;
+    border-left: 4px solid #3498db;
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    margin: 1.5rem 0;
+}
+.focus-box .help-title {
     margin-bottom: 0.75rem;
 }
 /* Help list (kopieret fra kontakt.css så stilen matcher) */
