@@ -12,7 +12,7 @@
 // Holder styr på hvilke kategorier der er aktivt filtreret
 const activeFilters = {
   "Bold": true,
-  "Dans & Bevægelse": true,
+  "Dans & bevægelse": true,
   "Krea & kultur": true,
   "Kampsport": true,
   "Andet": true
@@ -161,7 +161,7 @@ function setupFilterButtons() {
     return;
   }
 
-  const categories = ["Bold", "Dans & Bevægelse", "Krea & kultur", "Kampsport", "Andet"];
+  const categories = ["Bold", "Dans & bevægelse", "Krea & kultur", "Kampsport", "Andet"];
   const buttons = [];
 
   categories.forEach(category => {
