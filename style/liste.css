@@ -231,11 +231,28 @@
 .activity-info-row {
   display: flex;
   gap: 0.5rem;
+  min-width: 0;
 }
 
 .activity-info-row strong {
   color: #333;
   min-width: fit-content;
+}
+
+.activity-info-row span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.contact-link-inline {
+  color: #3498db;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.contact-link-inline:hover {
+  color: #2980b9;
 }
 
 .activity-description {
