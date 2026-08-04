@@ -60,13 +60,6 @@
     font-weight: 600;
     font-size: 1.1rem;
 }
-/* Fjerner mellemrummet mellem dette specifikke afsnit og det næste */
-.about-content p.no-gap-below {
-    margin-bottom: 0;
-}
-.about-content p.no-gap-below + p {
-    margin-top: 0;
-}
 /* "Vi har fokus på:" - fed tekst, matcher .help-title i kontakt.css */
 .help-title {
     font-size: 1.05rem;
