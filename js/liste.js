@@ -16,28 +16,28 @@
 
 // Holder styr på hvilke kategorier der er aktive filtreret
 const activeFilters = {
-  "Bold": true,
-  "Dans & bevægelse": true,
+  "Fodbold": true,
+  "Dans": true,
   "Krea & kultur": true,
-  "Kampsport": true,
+  "Boksning": true,
   "Andet": true
 };
 
 // Kategori-mapping (id til kategori)
 const categoryMap = {
-  1: "Bold",
-  2: "Dans & bevægelse",
+  1: "Fodbold",
+  2: "Dans",
   3: "Krea & kultur",
-  4: "Kampsport",
+  4: "Boksning",
   5: "Andet"
 };
 
 // CSS-klasse-mapping for farver
 const categoryClassMap = {
-  "Bold": "bold",
-  "Dans & bevægelse": "dans-bevægelse",
+  "Fodbold": "fodbold",
+  "Dans": "dans",
   "Krea & kultur": "krea-kultur",
-  "Kampsport": "kampsport",
+  "Boksning": "boksning",
   "Andet": "andet"
 };
 
@@ -67,7 +67,7 @@ function setupFilterButtons() {
     return;
   }
 
-  const categories = ["Bold", "Dans & bevægelse", "Krea & kultur", "Kampsport", "Andet"];
+  const categories = ["Fodbold", "Dans", "Krea & kultur", "Boksning", "Andet"];
   const buttons = [];
 
   categories.forEach(category => {
@@ -135,14 +135,14 @@ function renderActivitiesList() {
 
 /**
  * Grupperer aktiviteter efter deres kategori
- * Returnerer objekt: { "Bold": [...], "Dans & bevægelse": [...], ... }
+ * Returnerer objekt: { "Fodbold": [...], "Dans": [...], ... }
  */
 function groupActivitiesByCategory() {
   const grouped = {
-    "Bold": [],
-    "Dans & bevægelse": [],
+    "Fodbold": [],
+    "Dans": [],
     "Krea & kultur": [],
-    "Kampsport": [],
+    "Boksning": [],
     "Andet": []
   };
 
@@ -219,7 +219,7 @@ function renderActivityCard(activity) {
       </div>
       <div class="activity-info-row">
         <strong>📞</strong>
-        <span>${escapeHtml(activity.contact)}</span>
+        <span>${formatContact(activity.contact)}</span>
       </div>
     </div>
     
@@ -256,6 +256,19 @@ function updateCategoryVisibility() {
 // ===========================
 // UTILITY
 // ===========================
+
+/**
+ * Formaterer kontaktfeltet: hvis det er et link (starter med http),
+ * vises det som et klikbart link. Ellers vises det som almindelig tekst.
+ */
+function formatContact(contact) {
+  const trimmed = contact.trim();
+  if (trimmed.startsWith('http://') || trimmed.startsWith('https://')) {
+    const safeUrl = escapeHtml(trimmed);
+    return `<a href="${safeUrl}" target="_blank" rel="noopener noreferrer" class="contact-link-inline">Se mere her ↗</a>`;
+  }
+  return escapeHtml(contact);
+}
 
 /**
  * Escaper HTML for at undgå XSS
