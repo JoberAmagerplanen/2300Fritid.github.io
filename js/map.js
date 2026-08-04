@@ -22,7 +22,7 @@ const activeFilters = {
 let currentPopup = null;
 
 // ===========================
-// HJÆLPEFUNKTION
+// HJÆLPEFUNKTIONER
 // ===========================
 
 /**
@@ -37,6 +37,19 @@ function categoryToClass(category) {
     .replace(/\s+/g, '-')       // erstat mellemrum (også dobbelte) med "-"
     .replace(/-+/g, '-')        // undgå dobbelte bindestreger
     .replace(/^-|-$/g, '');     // fjern bindestreg i start/slut
+}
+
+/**
+ * Formaterer kontaktfeltet: hvis det er et link (starter med http),
+ * vises det som et klikbart link. Ellers vises det som almindelig tekst.
+ */
+function formatContact(contact) {
+  const trimmed = contact.trim();
+  if (trimmed.startsWith('http://') || trimmed.startsWith('https://')) {
+    const safeUrl = escapeHtml(trimmed);
+    return `<a href="${safeUrl}" target="_blank" rel="noopener noreferrer" class="contact-link-inline">Se mere her ↗</a>`;
+  }
+  return escapeHtml(contact);
 }
 
 // ===========================
@@ -124,7 +137,7 @@ function openPopup(activity) {
           <strong>📝 Beskrivelse:</strong> ${escapeHtml(activity.description)}
         </p>
         <p class="popup-row">
-          <strong>📞 Kontakt:</strong> ${escapeHtml(activity.contact)}
+          <strong>📞 Kontakt:</strong> ${formatContact(activity.contact)}
         </p>
       </div>
     </div>
