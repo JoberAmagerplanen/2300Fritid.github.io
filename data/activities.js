@@ -206,6 +206,28 @@ const activities = [
     description: "Boksning med Street Society – kræver ingen tilmelding, bare duk op!",
     time: "?",
     contact: "?"
+  },
+  {
+    id: 3,
+    title: "Glimt Amager",
+    category: "Krea & kultur",
+    x: 50,
+    y: 50,
+    location: "Sundholmsvej 8",
+    description: "Bliv undervist i cirkusdiscipliner og fysisk teater af professionelle cirkusartister og performere. Lær bl.a. luftakrobatik, akrobatik på gulv, partnerakrobatik, linedans og jonglering. Vi tilbyder cirkushold for børn i alderen 7-9 og 10-13 år samt to ungdomshold gennem Københavns Ungdomsskole 13-18 år.",
+    time: "Eftermiddage",
+    contact: "https://www.glimtamager.dk/portfolio-item/cirkushold/"
+  },
+  {
+    id: 3,
+    title: "Kulturpiloterne",
+    category: "Krea & kultur",
+    x: 50,
+    y: 50,
+    location: "Remisevej 14",
+    description: "Kunst, scenekunst, udvikling af kreative projekter og kulturproduktion til mange, er noget af det indhold vi arbejder sammen om i Kulturpilot. Kulturpiloterne er en gruppe børn og unge, der arbejder med forskellige former for kunst og kultur. Vi har ikke sæsoner som andre fritidstilbud. Du er altid velkommen, da vi arbejder meget projektorienteret. Skriv og hør om vi har plads og hvornår det kan passe at du starter på holdet. Det koster ikke noget at deltage, men vi forventer at du møder op hver gang, på samme vis som til alle andre fritidsaktiviteter.",
+    time: "Eftermiddage",
+    contact: "https://kulturogfritids.kk.dk/huse/kulturpilot-amager"
   }
 ];
 /**
