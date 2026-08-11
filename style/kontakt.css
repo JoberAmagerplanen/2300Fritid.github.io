@@ -25,6 +25,10 @@
     padding: 1rem;
     line-height: 1.8;
 }
+/* Ekstra luft over den flyttede overskrift, der nu er første element i indholdet */
+.contact-content > p.help-title:first-child {
+    margin-top: 0.5rem;
+}
 .intro-text {
     font-size: 1.05rem;
     color: #333;
