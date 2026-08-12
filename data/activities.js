@@ -69,7 +69,7 @@ const activities = [
     title: "Åben onsdagstræning (B1908)",
     category: "Bold",
     x: 40.7,
-    y: 86.2,
+    y: 86.6,
     location: "Sundby Idrætspark",
     description: "Åben onsdagstræning med B1908 - åbent for alle uanset køn, alder og fodboldevner.",
     time: "Onsdage kl. 12.30-14.30",
