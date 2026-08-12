@@ -35,6 +35,39 @@
     margin-bottom: 2rem;
     line-height: 1.8;
 }
+
+/* Intro-tekst + video side om side */
+.intro-video-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+.intro-text-col {
+    flex: 1;
+    min-width: 0;
+}
+.intro-video-col {
+    flex: 0 0 340px;
+}
+.video-embed {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 format */
+    height: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.18);
+}
+.video-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
 /* Help Section */
 .help-section {
     margin-bottom: 1rem;
@@ -164,6 +197,13 @@
 }
 /* Responsive Design */
 @media (max-width: 768px) {
+    .intro-video-row {
+        flex-direction: column;
+    }
+    .intro-video-col {
+        flex: 1 1 auto;
+        width: 100%;
+    }
     .contact-hero h1 {
         font-size: 1.7rem;
     }
