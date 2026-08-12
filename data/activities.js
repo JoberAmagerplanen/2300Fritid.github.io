@@ -40,7 +40,7 @@ const activities = [
     location: "Tvillingebanerne i Remiseparken",
     description: "Street fodbold med GAME – kræver ingen tilmelding, bare duk op!",
     time: "Fredage kl. 16-17",
-    contact: "??"
+    contact: "https://www.instagram.com/gamestreetmekkakbh/"
   },
   {
     id: 1,
@@ -51,7 +51,7 @@ const activities = [
     location: "Blå Bane",
     description: "Street fodbold for piger med Street Society – kræver ingen tilmelding, bare duk op!",
     time: "Onsdage kl. 16.30-18.00",
-    contact: "??"
+    contact: "https://www.instagram.com/streetsocietydk/"
   },
   {
     id: 1,
@@ -62,7 +62,7 @@ const activities = [
     location: "Blå Bane",
     description: "Street fodbold for drenge med Street Society – kræver ingen tilmelding, bare duk op!",
     time: "Lørdage kl. 16-18",
-    contact: "??"
+    contact: "https://www.instagram.com/streetsocietydk/"
   },
   {
     id: 1,
@@ -95,7 +95,7 @@ const activities = [
     location: "Tvillingebanerne i Remiseparken",
     description: "Street basket med GAME – kræver ingen tilmelding, bare duk op!",
     time: "Onsdage kl. 16.15-17.15",
-    contact: "??"
+    contact: "https://www.instagram.com/gamestreetmekkakbh/"
   },
   {
     id: 5,
@@ -205,7 +205,7 @@ const activities = [
     location: "Laden",
     description: "Boksning med Street Society – kræver ingen tilmelding, bare duk op!",
     time: "?",
-    contact: "?"
+    contact: "https://www.instagram.com/streetsocietydk/"
   },
   {
     id: 3,
