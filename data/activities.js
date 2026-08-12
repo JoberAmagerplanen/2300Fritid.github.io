@@ -168,7 +168,7 @@ const activities = [
     title: "Bemandede legepladser Bonderen & Byggeren",
     category: "Andet",
     x: 32.1,
-    y: 73.9,
+    y: 74.2,
     location: "Remiseparken",
     description: "De bemandede legepladser \"Bonderen\" og \"Byggeren\". Der tilbydes løbende aktiviteter, som er åbne for alle. Det kan blandt andet være bålaktiviteter og grønne aktiviteter",
     time: "Alle dage",
