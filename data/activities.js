@@ -324,7 +324,7 @@ const activities = [
     x: 24.8,
     y: 62.1,
     location: "Peder Lykke Skolen",
-    description: "Håndbold for alle køn. For børn op til 10 år!",
+    description: "Håndbold for alle køn. For børn op til 10 år - kræver tilmelding",
     time: "Onsdage kl. 16-17",
     contact: "https://www.amager-sk.dk/klub/amager-sk--3/hold/amager-sk-u7-u9-u11-og-kkfo-hold"
   },
