@@ -47,8 +47,9 @@
     flex: 1;
     min-width: 0;
 }
+/* Increased the video column basis to make the embedded video larger */
 .intro-video-col {
-    flex: 0 0 340px;
+    flex: 0 0 420px;
 }
 .video-embed {
     position: relative;
