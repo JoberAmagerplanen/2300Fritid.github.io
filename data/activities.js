@@ -247,7 +247,7 @@ const activities = [
     x: 69.7,
     y: 23.8,
     location: "Frankrigsgade Svømmehal",
-    description: "Hold for begyndere, letøvede og øvede. Alle trænere og livreddere er kvinder og undervisningen foregår i afskærmede rum. For piger fra 6-17 år - Kræver tilmelding.",
+    description: "Hold for begyndere, letøvede og øvede. Alle trænere og livreddere er kvinder og undervisningen foregår i afskærmede rum. Fra 6-17 år - Kræver tilmelding.",
     time: "Søndage kl. 15.30-16.30",
     contact: "https://amagerhealthygirls.dk/svomning/"
   },
