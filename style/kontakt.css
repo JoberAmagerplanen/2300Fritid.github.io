@@ -94,6 +94,12 @@
     margin: 1.5rem 0 2rem 0;
     font-style: italic;
 }
+/* Hold denne intro på én linje på skærme bredere end 480px */
+@media (min-width: 481px) {
+    .contact-info-intro {
+        white-space: nowrap;
+    }
+}
 /* Contact Cards Section */
 .contact-content h2 {
     font-size: 1.5rem;
