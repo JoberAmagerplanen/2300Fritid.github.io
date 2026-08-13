@@ -108,10 +108,15 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    /* Disable sticky header on small screens so it doesn't cover content */
+    .header {
+        position: static;
+    }
+
     .header-container {
         flex-direction: column;
         gap: 0.5rem;
-        padding: 1rem;
+        padding: 0.5rem 1rem;
     }
     .navigation {
         margin-left: 0;
@@ -123,12 +128,23 @@ body {
     }
     .nav-link {
         display: block;
-        padding: 0.75rem 1rem;
+        padding: 0.5rem 0.75rem;
         text-align: center;
     }
     .header-icons {
         justify-content: center;
         margin-top: 0.5rem;
+        gap: 8px;
+    }
+
+    /* Reduce logo and icon sizes on mobile so header uses less vertical space */
+    .logo img { height: 40px; }
+    .org-logo-link img { height: 32px; }
+    .instagram-icon { width: 24px; height: 24px; }
+
+    /* Make hero more compact on mobile so content appears sooner */
+    .hero {
+        padding: 1rem;
     }
     .hero h1 {
         font-size: 1.8rem;
