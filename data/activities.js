@@ -283,6 +283,17 @@ const activities = [
     description: "Judotræning med fokus på motorik, beveægelse sjov og leg. Træningen foregår i skolens idrætssal. Fra 0.-3. klasses børn - kræver tilmelding.",
     time: "Torsdage kl. 14-15",
     contact: "https://www.amagerjudo.dk/hold-og-tilmeldinger/hold-og-traningstider"
+  },
+  {
+    id: 5,
+    title: "Rollespil (Rollespilsfabrikken)",
+    category: "Andet",
+    x: 50,
+    y: 50,
+    location: "Amager Fælled",
+    description: "Rollespillet foregår i det magiske univers Jarkwelt. Her kan du være med selvom du aldrig har spillet rollespil før. Fra 7-13-år, men dispensation kan gives på begge sider. - Kræver tilmelding.",
+    time: "Søndage i lige uger kl. 11-15.30",
+    contact: "https://juniorrollespil.dk/amager-faelled/"
   }
 ];
 /**
