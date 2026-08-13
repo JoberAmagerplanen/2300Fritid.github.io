@@ -261,6 +261,28 @@ const activities = [
     description: "Aerobic er en kombination af dans og fitness, hvor du får pulsen op og sved på panden. Aerobic er for alle uanset hvilken form du er i eller om du har dyrket motion i forvejen. Fra 13 år - kræver tilmelding.",
     time: "Tirsdage kl. 18.45-19.45",
     contact: "https://amagerhealthygirls.dk/zumba/"
+  },
+  {
+    id: 4,
+    title: "Judo (Amager judo skole)",
+    category: "Kampsport",
+    x: 21,
+    y: 93.8,
+    location: "Dyvekeskolen",
+    description: "Judotræning med fokus på motorik, beveægelse sjov og leg. Træningen foregår i skolens idrætssal. Fra 0.-2. klasses børn - kræver tilmelding.",
+    time: "Mandage kl. 13-14",
+    contact: "https://www.amagerjudo.dk/hold-og-tilmeldinger/hold-og-traningstider"
+  },
+  {
+    id: 4,
+    title: "Judo (Amager judo skole)",
+    category: "Kampsport",
+    x: 50,
+    y: 50,
+    location: "Peder Lykke Skolen",
+    description: "Judotræning med fokus på motorik, beveægelse sjov og leg. Træningen foregår i skolens idrætssal. Fra 0.-3. klasses børn - kræver tilmelding.",
+    time: "Torsdage kl. 14-15",
+    contact: "https://www.amagerjudo.dk/hold-og-tilmeldinger/hold-og-traningstider"
   }
 ];
 /**
