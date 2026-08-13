@@ -209,7 +209,7 @@ const activities = [
   },
   {
     id: 3,
-    title: "Glimt Amager",
+    title: "Cirkus & akrobatik (Glimt Amager)",
     category: "Krea & kultur",
     x: 22.4,
     y: 34.9,
