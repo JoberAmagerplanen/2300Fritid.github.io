@@ -187,14 +187,14 @@ const activities = [
   },
   {
     id: 2,
-    title: "Dans for piger",
+    title: "Dans: Afro (Amager SK)",
     category: "Dans & bevægelse",
     x: 11.4,
     y: 46.1,
     location: "A-huset, Amagerfælledvej 73",
-    description: "?.",
-    time: "Onsdage kl. ??",
-    contact: "Chika ??"
+    description: "Kan du lide at danse, give den gas og lære nye moves? På holdet danser vi til fed musik og arbejder med forskellige genrer. Uanset om du har prøvet at danse før, eller det er første gang, er du velkommen. Dansene tilpasses, så alle kan følge med og have det sjovt. To hold fra 0.-9. klasse - kræver tilmelding.",
+    time: "Onsdage kl. 17.15-18.15, 18.30-19.30",
+    contact: "https://www.amager-sk.dk/klub/amager-sk--3/hold/afro-0-3-kl-onsdag"
   },
   {
     id: 4,
@@ -316,7 +316,40 @@ const activities = [
     description: "Afro eller Afro Fusion er ikke én enkelt dansestil, men en dynamisk blanding af dansestilarter fra hele det afrikanske kontinent. Fra 9-12 år - kræver tilmelding.",
     time: "Torsdage kl. 17-18",
     contact: "https://www.globalkidz.dk/holdoversigt/"
-   }
+   },
+  {
+    id: 1,
+    title: "Håndbold (Amager SK)",
+    category: "Bold",
+    x: 24.8,
+    y: 62.1,
+    location: "Peder Lykke Skolen",
+    description: "Håndbold for alle køn. For børn op til 10 år!",
+    time: "Onsdage kl. 16-17",
+    contact: "https://www.amager-sk.dk/klub/amager-sk--3/hold/amager-sk-u7-u9-u11-og-kkfo-hold"
+  },
+   {
+   id: 2,
+    title: "Gymnastik: Springerne (Amager SK)",
+    category: "Dans & bevægelse",
+    x: 24.5,
+    y: 93.8,
+    location: "Dyvekeskolen",
+    description: "Tre gymnastikhold med Amager SK. Fra 0.-5. klasse - kræver tilmelding.",
+    time: "Mandage kl. 16-17, 17-18, 18-19.30",
+    contact: "https://www.amager-sk.dk/klub/amager-sk--3/hold/springerne-0-1-kl-mandag"
+   },
+  {
+   id: 2,
+    title: "Gymnastik: Lopperne og Spilopperne (Amager SK)",
+    category: "Dans & bevægelse",
+    x: 25.7,
+    y: 93.8,
+    location: "Dyvekeskolen",
+    description: "To gymnastikhold med Amager SK. Fra 4-6 år - kræver tilmelding.",
+    time: "Tirsdag kl. 16.15-17.15, 17.15-18.15",
+    contact: "https://www.amager-sk.dk/klub/amager-sk--3/hold/lopperne-4-5-ar-tirsdag"
+   },
 ];
 /**
  * VEJLEDNING TIL JUSTERING AF PIN-PLACERING:
