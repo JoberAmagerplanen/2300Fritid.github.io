@@ -294,7 +294,29 @@ const activities = [
     description: "Rollespillet foregår i det magiske univers Jarkwelt. Her kan du være med selvom du aldrig har spillet rollespil før. Fra 7-13-år, men dispensation kan gives på begge sider. - Kræver tilmelding.",
     time: "Søndage i lige uger kl. 11-15.30",
     contact: "https://juniorrollespil.dk/amager-faelled/"
-  }
+  },
+  {
+    id: 2,
+    title: "Dans: Afro fusion (Global Kidz)",
+    category: "Dans & bevægelse",
+    x: 50,
+    y: 52,
+    location: "Skolen på Amagerbro",
+    description: "Afro eller Afro Fusion er ikke én enkelt dansestil, men en dynamisk blanding af dansestilarter fra hele det afrikanske kontinent. Fra 6-8 år - kræver tilmelding.",
+    time: "Torsdage kl. 16-16.45",
+    contact: "https://www.globalkidz.dk/holdoversigt/" 
+  },
+  {
+   id: 2,
+    title: "Dans: Afro fusion (Global Kidz)",
+    category: "Dans & bevægelse",
+    x: 50,
+    y: 53,
+    location: "Skolen på Amagerbro",
+    description: "Afro eller Afro Fusion er ikke én enkelt dansestil, men en dynamisk blanding af dansestilarter fra hele det afrikanske kontinent. Fra 9-12 år - kræver tilmelding.",
+    time: "Torsdage kl. 17-18",
+    contact: "https://www.globalkidz.dk/holdoversigt/"
+   }
 ];
 /**
  * VEJLEDNING TIL JUSTERING AF PIN-PLACERING:
