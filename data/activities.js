@@ -191,7 +191,7 @@ const activities = [
     category: "Dans & bevægelse",
     x: 11.4,
     y: 46.1,
-    location: "A-huset",
+    location: "A-huset, Amagerfælledvej 73",
     description: "?.",
     time: "Onsdage kl. ??",
     contact: "Chika ??"
@@ -228,6 +228,39 @@ const activities = [
     description: "Kulturpiloterne er en gruppe børn og unge, der arbejder med forskellige former for kunst og kultur. Du er altid velkommen. Skriv og hør om vi har plads og hvornår det kan passe at du starter på holdet. Det koster ikke noget at deltage, men vi forventer at du møder op hver gang, på samme vis som til alle andre fritidsaktiviteter.",
     time: "Eftermiddage",
     contact: "https://kulturogfritids.kk.dk/huse/kulturpilot-amager"
+  },
+  {
+    id: 2,
+    title: "Yoga for piger (Amager Healthy Girls)",
+    category: "Dans & bevægelse",
+    x: 12.5,
+    y: 46.1,
+    location: "A-huset, Amagerfælledvej 73",
+    description: "Yoga er en populær træningsform til at styrke og smidiggøre krop og sind. På dette hold kan du let være med, uanset om du har dyrket yoga før. Fra 15 år - kræver tilmelding.",
+    time: "Tirsdage kl. 18.45-19.45",
+    contact: "https://amagerhealthygirls.dk/yoga/"
+  },
+  {
+    id: 5,
+    title: "Svømning for piger (Amager Healthy Girls)",
+    category: "Andet",
+    x: 50,
+    y: 50,
+    location: "Frankrigsgade Svømmehal",
+    description: "Hold for begyndere, letøvede og øvede. Alle trænere og livreddere er kvinder og undervisningen foregår i afskærmede rum. For piger fra 6-17 år - Kræver tilmelding.",
+    time: "Søndage kl. 15.30-16.30",
+    contact: "https://amagerhealthygirls.dk/svomning/"
+  },
+  {
+    id: 2,
+    title: "Aerobic for piger (Amager Healthy Girls)",
+    category: "Dans & bevægelse",
+    x: 13.2,
+    y: 46.1,
+    location: "A-huset, Amagerfælledvej 73",
+    description: "Aerobic er en kombination af dans og fitness, hvor du får pulsen op og sved på panden. Aerobic er for alle uanset hvilken form du er i eller om du har dyrket motion i forvejen. Fra 13 år - kræver tilmelding.",
+    time: "Tirsdage kl. 18.45-19.45",
+    contact: "https://amagerhealthygirls.dk/zumba/"
   }
 ];
 /**
