@@ -47,9 +47,9 @@
     flex: 1;
     min-width: 0;
 }
-/* Increased the video column basis to make the embedded video larger */
+/* Reduced the video column basis so the intro text has more horizontal space */
 .intro-video-col {
-    flex: 0 0 420px;
+    flex: 0 0 360px;
 }
 .video-embed {
     position: relative;
@@ -97,6 +97,10 @@
 /* Hold denne intro på én linje på skærme bredere end 480px */
 @media (min-width: 481px) {
     .contact-info-intro {
+        white-space: nowrap;
+    }
+    /* Hold den første help-title i intro-teksten på én linje */
+    .intro-text-col > p.help-title:first-child {
         white-space: nowrap;
     }
 }
