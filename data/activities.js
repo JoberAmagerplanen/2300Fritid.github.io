@@ -193,7 +193,7 @@ const activities = [
     y: 46.1,
     location: "A-huset, Amagerfælledvej 73",
     description: "Kan du lide at danse, give den gas og lære nye moves? På holdet danser vi til fed musik og arbejder med forskellige genrer. Uanset om du har prøvet at danse før, eller det er første gang, er du velkommen. Dansene tilpasses, så alle kan følge med og have det sjovt. To hold fra 0.-9. klasse - kræver tilmelding.",
-    time: "Onsdage kl. 17.15-18.15, 18.30-19.30",
+    time: "Onsdage kl. 17.15-18.15 & kl. 18.30-19.30",
     contact: "https://www.amager-sk.dk/klub/amager-sk--3/hold/afro-0-3-kl-onsdag"
   },
   {
@@ -336,7 +336,7 @@ const activities = [
     y: 93.8,
     location: "Dyvekeskolen",
     description: "Tre gymnastikhold med Amager SK. Fra 0.-5. klasse. Disse hold er en sjov og tryg introduktion til springgymnastikkens verden - kræver tilmelding.",
-    time: "Mandage kl. 16-17, 17-18, 18-19.30",
+    time: "Mandage kl. 16-17, kl. 17-18 & kl. 18-19.30",
     contact: "https://www.amager-sk.dk/klub/amager-sk--3/hold/springerne-0-1-kl-mandag"
    },
   {
@@ -347,7 +347,7 @@ const activities = [
     y: 93.8,
     location: "Dyvekeskolen",
     description: "To gymnastikhold med Amager SK. Fra 4-6 år. Disse hold giver en tryg og legende introduktion til både gymnastik og foreningslivet - kræver tilmelding.",
-    time: "Tirsdag kl. 16.15-17.15, 17.15-18.15",
+    time: "Tirsdag kl. 16.15-17.15 & kl. 17.15-18.15",
     contact: "https://www.amager-sk.dk/klub/amager-sk--3/hold/lopperne-4-5-ar-tirsdag"
    },
 ];
