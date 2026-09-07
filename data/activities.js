@@ -279,7 +279,7 @@ const activities = [
     location: "A-huset, Amagerfælledvej 73",
     description: "Aerobic er en kombination af dans og fitness, hvor du får pulsen op og sved på panden. Aerobic er for alle uanset hvilken form du er i eller om du har dyrket motion i forvejen. Fra 13 år - kræver tilmelding.",
     time: "Tirsdage kl. 18.45-19.45",
-    contact: "https://amagerhealthygirls.dk/zumba/",*
+    contact: "https://amagerhealthygirls.dk/zumba/",
     price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
   },
   {
