@@ -187,10 +187,18 @@
   color: #333;
 }
 
+/* Række med kategori-badge og evt. pris-badge, side om side */
+.badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
 .activity-badge {
   display: inline-block;
   width: fit-content;
-  margin-bottom: 1rem;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   color: white;
@@ -216,6 +224,25 @@
 
 .activity-badge.andet {
   background-color: #a0522d;
+}
+
+/* Pris-badge: Gratis (teal) / Kræver betaling (lilla) */
+.price-badge {
+  display: inline-block;
+  width: fit-content;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.price-badge.price-free {
+  background-color: #16a085;
+}
+
+.price-badge.price-paid {
+  background-color: #8e44ad;
 }
 
 .activity-info {
