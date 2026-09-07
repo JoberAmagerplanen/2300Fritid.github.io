@@ -41,7 +41,8 @@ const activities = [
     location: "Tvillingebanerne i Remiseparken",
     description: "Street fodbold med GAME – kræver ingen tilmelding, bare duk op!",
     time: "Fredage kl. 16-17",
-    contact: "https://www.instagram.com/gamestreetmekkakbh/"
+    contact: "https://www.instagram.com/gamestreetmekkakbh/",
+    price: "Gratis"
   },
   {
     id: 1,
@@ -52,7 +53,8 @@ const activities = [
     location: "Blå Bane",
     description: "Street fodbold for piger med Street Society – kræver ingen tilmelding, bare duk op!",
     time: "Onsdage kl. 16.30-18.00",
-    contact: "https://www.instagram.com/streetsocietydk/"
+    contact: "https://www.instagram.com/streetsocietydk/",
+    price: "Gratis"
   },
   {
     id: 1,
@@ -63,7 +65,8 @@ const activities = [
     location: "Blå Bane",
     description: "Street fodbold for drenge med Street Society – kræver ingen tilmelding, bare duk op!",
     time: "Lørdage kl. 16-18",
-    contact: "https://www.instagram.com/streetsocietydk/"
+    contact: "https://www.instagram.com/streetsocietydk/",
+    price: "Gratis"
   },
   {
     id: 1,
@@ -74,7 +77,8 @@ const activities = [
     location: "Sundby Idrætspark",
     description: "Åben onsdagstræning med B1908 - åbent for alle uanset køn, alder og fodboldevner.",
     time: "Onsdage kl. 12.30-14.30",
-    contact: "https://www.facebook.com/B1908"
+    contact: "https://www.facebook.com/B1908",
+    price: "Gratis"
   },
   {
     id: 4,
@@ -85,7 +89,8 @@ const activities = [
     location: "Blå Bane",
     description: "Boksning med ABC-boksning – kræver ingen tilmelding, bare duk op!",
     time: "Tirsdage kl. 16-18",
-    contact: "https://www.instagram.com/amagerboxing/"
+    contact: "https://www.instagram.com/amagerboxing/",
+    price: "Gratis"
   },
   {
     id: 5,
@@ -96,7 +101,8 @@ const activities = [
     location: "Tvillingebanerne i Remiseparken",
     description: "Street basket med GAME – kræver ingen tilmelding, bare duk op!",
     time: "Onsdage kl. 16.15-17.15",
-    contact: "https://www.instagram.com/gamestreetmekkakbh/"
+    contact: "https://www.instagram.com/gamestreetmekkakbh/",
+    price: "Gratis"
   },
   {
     id: 5,
@@ -107,7 +113,8 @@ const activities = [
     location: "Idrætscontaineren i Remiseparken",
     description: "Mødested og aktiviteter for børn og unge arrangeret af Ungeværket Jokeren – kræver ikke klubmedlemsskab eller tilmelding, bare duk op!",
     time: "Alle hverdage",
-    contact: "https://fc-amagermidt-kk.aula.dk/praestevaenget/gaest-i-fritidsklubben"
+    contact: "https://fc-amagermidt-kk.aula.dk/praestevaenget/gaest-i-fritidsklubben",
+    price: "Gratis"
   },
   {
     id: 5,
@@ -118,7 +125,8 @@ const activities = [
     location: "Buret på Prags Boulevard",
     description: "Mødested og aktiviteter for børn og unge mellem 10-17 år arrangeret af Ungeværket Amager Nordøst– kræver ikke klubmedlemsskab eller tilmelding, bare duk op!",
     time: "Alle hverdage kl. 14-17.30. Lørdage i ulige uger kl. 10.30-13.30",
-    contact: "https://fc-amagernordoest-kk.aula.dk/buret/om-buret"
+    contact: "https://fc-amagernordoest-kk.aula.dk/buret/om-buret",
+    price: "Gratis"
   },
   {
     id: 3,
@@ -129,7 +137,8 @@ const activities = [
     location: "LykkeBazaren, Urmagerstien 26",
     description: "Fordyb dig i garn og håndarbejde i Garncaféen i Lykkebazaren. Her kan du arbejde med tufting, strik og hækling i kreative rammer, uanset om du er nybegynder eller erfaren – kræver ingen tilmelding, bare duk op!",
     time: "Mandage kl. 14-16.30",
-    contact: "https://kbhgenbruger.kk.dk/aktiviteter-og-events/garn-cafe-paa-remiseparken-naergenbrugsstation-lykkebazaren-0"
+    contact: "https://kbhgenbruger.kk.dk/aktiviteter-og-events/garn-cafe-paa-remiseparken-naergenbrugsstation-lykkebazaren-0",
+    price: "Gratis"
   },
   {
     id: 3,
@@ -140,7 +149,8 @@ const activities = [
     location: "LykkeBazaren, Urmagerstien 26",
     description: "Fordyb dig i kreative projekter lavet af genbrugsmaterialer fra byens genbrugsstationer. Her kan du give materialer nyt liv og skabe noget helt dit eget – kræver ingen tilmelding, bare duk op!",
     time: "Søndage kl. 13.30-15.30",
-    contact: "https://kbhgenbruger.kk.dk/aktiviteter-og-events/krea-cafe-i-remiseparken-naergenbrugsstation-lykkebazaren-0"
+    contact: "https://kbhgenbruger.kk.dk/aktiviteter-og-events/krea-cafe-i-remiseparken-naergenbrugsstation-lykkebazaren-0",
+    price: "Gratis"
   },
   {
     id: 3,
@@ -151,7 +161,8 @@ const activities = [
     location: "Hørgårdens Nærgenbrugsstation",
     description: "Kom i gang med dine egne sy-projekter. Sycaféen er et åbent fællesskab, hvor der er plads til fordybelse, idéudveksling og inspiration fra andre – kræver ingen tilmelding, bare duk op!",
     time: "Torsdage kl. 14.30-17.30",
-    contact: "https://kbhgenbruger.kk.dk/aktiviteter-og-events/sy-cafe-paa-hoergaarden-naergenbrugsstation-2"
+    contact: "https://kbhgenbruger.kk.dk/aktiviteter-og-events/sy-cafe-paa-hoergaarden-naergenbrugsstation-2",
+    price: "Gratis"
   },
   {
     id: 3,
@@ -162,7 +173,8 @@ const activities = [
     location: "Solvang bibliotek",
     description: "Strikkecafé. Alle er velkomne, og er du ny til strik, har vi strikkepinde og garn til rådighed. Det er helt uforpligtende og gratis at deltage – kræver ingen tilmelding, bare duk op!",
     time: "Onsdage kl. 15-17",
-    contact: "https://bibliotek.kk.dk/solvang-bibliotek/aktiviteter/faellesskaber/kreative-faellesskaber/strikkecafe"
+    contact: "https://bibliotek.kk.dk/solvang-bibliotek/aktiviteter/faellesskaber/kreative-faellesskaber/strikkecafe",
+    price: "Gratis"
   },
   {
     id: 5,
@@ -173,7 +185,8 @@ const activities = [
     location: "Remiseparken",
     description: "De bemandede legepladser \"Bonderen\" og \"Byggeren\". Der tilbydes løbende aktiviteter, som er åbne for alle. Det kan blandt andet være bålaktiviteter og grønne aktiviteter",
     time: "Alle dage",
-    contact: "https://www.facebook.com/profile.php?id=100064149578520"
+    contact: "https://www.facebook.com/profile.php?id=100064149578520",
+    price: "Gratis"
   },
   {
     id: 5,
@@ -184,7 +197,8 @@ const activities = [
     location: "Øselsgade 5",
     description: "Den bemandede legeplads i Øselsgade. Legeplads med indendørs mødested, med pool, bordtennis og bordfodbold. Man kan også være kreativ eller spille brætspil.",
     time: "Alle dage",
-    contact: "https://www.facebook.com/DenbemandedelegepladsKornblomstparken"
+    contact: "https://www.facebook.com/DenbemandedelegepladsKornblomstparken",
+    price: "Gratis"
   },
   {
     id: 2,
@@ -206,7 +220,8 @@ const activities = [
     location: "Laden",
     description: "Boksning med Street Society – kræver ingen tilmelding, bare duk op!",
     time: "?",
-    contact: "https://www.instagram.com/streetsocietydk/"
+    contact: "https://www.instagram.com/streetsocietydk/",
+    price: "Gratis"
   },
   {
     id: 3,
