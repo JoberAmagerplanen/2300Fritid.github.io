@@ -209,7 +209,8 @@ const activities = [
     location: "A-huset, Amagerfælledvej 73",
     description: "Kan du lide at danse, give den gas og lære nye moves? På holdet danser vi til fed musik og arbejder med forskellige genrer. Uanset om du har prøvet at danse før, eller det er første gang, er du velkommen. Dansene tilpasses, så alle kan følge med og have det sjovt. To hold fra 0.-9. klasse - kræver tilmelding.",
     time: "Onsdage kl. 17.15-18.15 & kl. 18.30-19.30",
-    contact: "https://www.amager-sk.dk/klub/amager-sk--3/hold/afro-0-3-kl-onsdag"
+    contact: "https://www.amager-sk.dk/klub/amager-sk--3/hold/afro-0-3-kl-onsdag",
+    price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
   },
   {
     id: 4,
@@ -254,7 +255,8 @@ const activities = [
     location: "A-huset, Amagerfælledvej 73",
     description: "Yoga er en populær træningsform til at styrke og smidiggøre krop og sind. På dette hold kan du let være med, uanset om du har dyrket yoga før. Fra 15 år - kræver tilmelding.",
     time: "Tirsdage kl. 18.45-19.45",
-    contact: "https://amagerhealthygirls.dk/yoga/"
+    contact: "https://amagerhealthygirls.dk/yoga/",
+    price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
   },
   {
     id: 5,
@@ -265,7 +267,8 @@ const activities = [
     location: "Frankrigsgade Svømmehal",
     description: "Hold for begyndere, letøvede og øvede. Alle trænere og livreddere er kvinder og undervisningen foregår i afskærmede rum. Fra 6-17 år - Kræver tilmelding.",
     time: "Søndage kl. 15.30-16.30",
-    contact: "https://amagerhealthygirls.dk/svomning/"
+    contact: "https://amagerhealthygirls.dk/svomning/",
+    price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
   },
   {
     id: 2,
@@ -276,7 +279,8 @@ const activities = [
     location: "A-huset, Amagerfælledvej 73",
     description: "Aerobic er en kombination af dans og fitness, hvor du får pulsen op og sved på panden. Aerobic er for alle uanset hvilken form du er i eller om du har dyrket motion i forvejen. Fra 13 år - kræver tilmelding.",
     time: "Tirsdage kl. 18.45-19.45",
-    contact: "https://amagerhealthygirls.dk/zumba/"
+    contact: "https://amagerhealthygirls.dk/zumba/",*
+    price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
   },
   {
     id: 4,
@@ -287,7 +291,8 @@ const activities = [
     location: "Dyvekeskolen",
     description: "Judotræning med fokus på motorik, beveægelse sjov og leg. Træningen foregår i skolens idrætssal. Fra 0.-2. klasses børn - kræver tilmelding.",
     time: "Mandage kl. 13-14",
-    contact: "https://www.amagerjudo.dk/hold-og-tilmeldinger/hold-og-traningstider"
+    contact: "https://www.amagerjudo.dk/hold-og-tilmeldinger/hold-og-traningstider",
+    price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
   },
   {
     id: 4,
@@ -298,7 +303,8 @@ const activities = [
     location: "Peder Lykke Skolen",
     description: "Judotræning med fokus på motorik, beveægelse sjov og leg. Træningen foregår i skolens idrætssal. Fra 0.-3. klasses børn - kræver tilmelding.",
     time: "Torsdage kl. 14-15",
-    contact: "https://www.amagerjudo.dk/hold-og-tilmeldinger/hold-og-traningstider"
+    contact: "https://www.amagerjudo.dk/hold-og-tilmeldinger/hold-og-traningstider",
+    price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
   },
   {
     id: 5,
@@ -309,7 +315,8 @@ const activities = [
     location: "Amager Fælled",
     description: "Rollespillet foregår i det magiske univers Jarkwelt. Her kan du være med selvom du aldrig har spillet rollespil før. Fra 7-13-år, men dispensation kan gives på begge sider. - Kræver tilmelding.",
     time: "Søndage i lige uger kl. 11-15.30",
-    contact: "https://juniorrollespil.dk/amager-faelled/"
+    contact: "https://juniorrollespil.dk/amager-faelled/",
+    price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
   },
   {
     id: 2,
@@ -320,7 +327,8 @@ const activities = [
     location: "Skolen på Amagerbro",
     description: "Afro eller Afro Fusion er ikke én enkelt dansestil, men en dynamisk blanding af dansestilarter fra hele det afrikanske kontinent. Fra 6-8 år - kræver tilmelding.",
     time: "Torsdage kl. 16-16.45",
-    contact: "https://www.globalkidz.dk/holdoversigt/" 
+    contact: "https://www.globalkidz.dk/holdoversigt/",
+    price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
   },
   {
    id: 2,
@@ -331,7 +339,8 @@ const activities = [
     location: "Skolen på Amagerbro",
     description: "Afro eller Afro Fusion er ikke én enkelt dansestil, men en dynamisk blanding af dansestilarter fra hele det afrikanske kontinent. Fra 9-12 år - kræver tilmelding.",
     time: "Torsdage kl. 17-18",
-    contact: "https://www.globalkidz.dk/holdoversigt/"
+    contact: "https://www.globalkidz.dk/holdoversigt/",
+    price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
    },
   {
     id: 1,
@@ -342,7 +351,8 @@ const activities = [
     location: "Peder Lykke Skolen",
     description: "Håndbold for alle køn. For børn op til 10 år - kræver tilmelding",
     time: "Onsdage kl. 16-17",
-    contact: "https://www.amager-sk.dk/klub/amager-sk--3/hold/amager-sk-u7-u9-u11-og-kkfo-hold"
+    contact: "https://www.amager-sk.dk/klub/amager-sk--3/hold/amager-sk-u7-u9-u11-og-kkfo-hold",
+    price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
   },
    {
    id: 2,
@@ -353,7 +363,8 @@ const activities = [
     location: "Dyvekeskolen",
     description: "Tre gymnastikhold med Amager SK. Fra 0.-5. klasse. Disse hold er en sjov og tryg introduktion til springgymnastikkens verden - kræver tilmelding.",
     time: "Mandage kl. 16-17, kl. 17-18 & kl. 18-19.30",
-    contact: "https://www.amager-sk.dk/klub/amager-sk--3/hold/springerne-0-1-kl-mandag"
+    contact: "https://www.amager-sk.dk/klub/amager-sk--3/hold/springerne-0-1-kl-mandag",
+    price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
    },
   {
    id: 2,
@@ -364,7 +375,8 @@ const activities = [
     location: "Dyvekeskolen",
     description: "To gymnastikhold med Amager SK. Fra 4-6 år. Disse hold giver en tryg og legende introduktion til både gymnastik og foreningslivet - kræver tilmelding.",
     time: "Tirsdag kl. 16.15-17.15 & kl. 17.15-18.15",
-    contact: "https://www.amager-sk.dk/klub/amager-sk--3/hold/lopperne-4-5-ar-tirsdag"
+    contact: "https://www.amager-sk.dk/klub/amager-sk--3/hold/lopperne-4-5-ar-tirsdag",
+    price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
    },
 ];
 /**
