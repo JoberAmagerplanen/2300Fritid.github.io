@@ -29,7 +29,7 @@ const activities = [
     location: "Rød Bane",
     description: "\"Leg og Bold\" fodbold med Idrætsprojektet, B1908 og Brobold – kræver ingen tilmelding, bare duk op!",
     time: "Torsdage kl. 15-17",
-    contact: "??"
+    contact: "https://www.instagram.com/idraetsprojektet/"
   },
   {
     id: 1,
@@ -73,7 +73,7 @@ const activities = [
     location: "Sundby Idrætspark",
     description: "Åben onsdagstræning med B1908 - åbent for alle uanset køn, alder og fodboldevner.",
     time: "Onsdage kl. 12.30-14.30",
-    contact: "??"
+    contact: "https://www.facebook.com/B1908"
   },
   {
     id: 4,
@@ -84,7 +84,7 @@ const activities = [
     location: "Blå Bane",
     description: "Boksning med ABC-boksning – kræver ingen tilmelding, bare duk op!",
     time: "Tirsdage kl. 16-18",
-    contact: "??"
+    contact: "https://www.instagram.com/amagerboxing/"
   },
   {
     id: 5,
@@ -106,7 +106,7 @@ const activities = [
     location: "Idrætscontaineren i Remiseparken",
     description: "Mødested og aktiviteter for børn og unge arrangeret af Ungeværket Jokeren – kræver ikke klubmedlemsskab eller tilmelding, bare duk op!",
     time: "Alle hverdage",
-    contact: "??"
+    contact: "https://fc-amagermidt-kk.aula.dk/praestevaenget/gaest-i-fritidsklubben"
   },
   {
     id: 5,
@@ -117,7 +117,7 @@ const activities = [
     location: "Buret på Prags Boulevard",
     description: "Mødested og aktiviteter for børn og unge mellem 10-17 år arrangeret af Ungeværket Amager Nordøst– kræver ikke klubmedlemsskab eller tilmelding, bare duk op!",
     time: "Alle hverdage kl. 14-17.30. Lørdage i ulige uger kl. 10.30-13.30",
-    contact: "??"
+    contact: "https://fc-amagernordoest-kk.aula.dk/buret/om-buret"
   },
   {
     id: 3,
@@ -172,7 +172,7 @@ const activities = [
     location: "Remiseparken",
     description: "De bemandede legepladser \"Bonderen\" og \"Byggeren\". Der tilbydes løbende aktiviteter, som er åbne for alle. Det kan blandt andet være bålaktiviteter og grønne aktiviteter",
     time: "Alle dage",
-    contact: "https://legeplads.kk.dk/vaelg-en-bydel/amager/remiseparken-bonderen-og-byggeren-b"
+    contact: "https://www.facebook.com/profile.php?id=100064149578520"
   },
   {
     id: 5,
@@ -183,7 +183,7 @@ const activities = [
     location: "Øselsgade 5",
     description: "Den bemandede legeplads i Øselsgade. Legeplads med indendørs mødested, med pool, bordtennis og bordfodbold. Man kan også være kreativ eller spille brætspil.",
     time: "Alle dage",
-    contact: "https://legeplads.kk.dk/vaelg-en-bydel/amager/oeselsgade-b"
+    contact: "https://www.facebook.com/DenbemandedelegepladsKornblomstparken"
   },
   {
     id: 2,
