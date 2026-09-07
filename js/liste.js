@@ -206,7 +206,10 @@ function renderActivityCard(activity) {
 
   card.innerHTML = `
     <h3 class="activity-title">${escapeHtml(activity.title)}</h3>
-    <span class="activity-badge ${categoryClassMap[activity.category]}">${escapeHtml(activity.category)}</span>
+    <div class="badge-row">
+      <span class="activity-badge ${categoryClassMap[activity.category]}">${escapeHtml(activity.category)}</span>
+      ${renderPriceBadge(activity.price)}
+    </div>
     
     <div class="activity-info">
       <div class="activity-info-row">
@@ -256,6 +259,21 @@ function updateCategoryVisibility() {
 // ===========================
 // UTILITY
 // ===========================
+
+/**
+ * Renderer pris-badge (Gratis / Kræver betaling), hvis aktiviteten har et price-felt.
+ * Aktiviteter uden price-felt viser ingen badge.
+ * Tekst der starter med "gratis" (uanset store/små bogstaver) bliver grøn,
+ * alt andet bliver lilla ("kræver betaling").
+ */
+function renderPriceBadge(price) {
+  if (!price || !price.trim()) {
+    return '';
+  }
+  const isFree = price.trim().toLowerCase().startsWith('gratis');
+  const priceClass = isFree ? 'price-free' : 'price-paid';
+  return `<span class="price-badge ${priceClass}">${escapeHtml(price)}</span>`;
+}
 
 /**
  * Formaterer kontaktfeltet: hvis det er et link (starter med http),
