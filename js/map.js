@@ -52,6 +52,21 @@ function formatContact(contact) {
   return escapeHtml(contact);
 }
 
+/**
+ * Renderer pris-badge (Gratis / Kræver betaling), hvis aktiviteten har et price-felt.
+ * Aktiviteter uden price-felt viser ingen badge.
+ * Tekst der starter med "gratis" (uanset store/små bogstaver) bliver grøn,
+ * alt andet bliver lilla ("kræver betaling").
+ */
+function renderPriceBadge(price) {
+  if (!price || !price.trim()) {
+    return '';
+  }
+  const isFree = price.trim().toLowerCase().startsWith('gratis');
+  const priceClass = isFree ? 'price-free' : 'price-paid';
+  return `<span class="price-badge ${priceClass}">${escapeHtml(price)}</span>`;
+}
+
 // ===========================
 // INITIALISERING
 // ===========================
@@ -124,7 +139,10 @@ function openPopup(activity) {
       <button class="popup-close" aria-label="Luk popup">&times;</button>
       <div class="popup-header">
         <h3>${escapeHtml(activity.title)}</h3>
-        <span class="popup-badge ${categoryToClass(activity.category)}">${escapeHtml(activity.category)}</span>
+        <div class="popup-badges">
+          <span class="popup-badge ${categoryToClass(activity.category)}">${escapeHtml(activity.category)}</span>
+          ${renderPriceBadge(activity.price)}
+        </div>
       </div>
       <div class="popup-body">
         <p class="popup-row">
