@@ -29,7 +29,8 @@ const activities = [
     location: "Rød Bane",
     description: "\"Leg og Bold\" fodbold med Idrætsprojektet, B1908 og Brobold – kræver ingen tilmelding, bare duk op!",
     time: "Torsdage kl. 15-17",
-    contact: "https://www.instagram.com/idraetsprojektet/"
+    contact: "https://www.instagram.com/idraetsprojektet/",
+    price: "Gratis"
   },
   {
     id: 1,
