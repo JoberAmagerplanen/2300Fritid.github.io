@@ -87,23 +87,24 @@
     padding: 0.25rem 0;
     color: #333;
 }
-/* Ordforklaringsboks (kontingent) - fuld bredde, under video-rækken */
+/* Ordforklaringsboks (kontingent) - centreret, under video-rækken */
 .glossary-box {
-    max-width: 700px;
+    max-width: 600px;
     background-color: #fdf6e3;
-    border-left: 4px solid #d4a017;
     border-radius: 8px;
-    padding: 0.85rem 1.1rem;
-    margin: 0 0 1.5rem 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    padding: 0.75rem 1.1rem;
+    margin: 0.5rem auto 1.5rem auto;
+    text-align: center;
 }
 .glossary-title {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     font-weight: 600;
     color: #000000;
-    margin: 0 0 0.35rem 0;
+    margin: 0 0 0.3rem 0;
 }
 .glossary-item {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     color: #555;
     margin: 0;
     line-height: 1.5;
@@ -111,7 +112,7 @@
 .contact-info-intro {
     font-size: 1rem;
     color: #555;
-    margin: 1.5rem 0 2rem 0;
+    margin: 1.5rem 0 1rem 0;
     font-style: italic;
 }
 /* Contact Cards Section */
