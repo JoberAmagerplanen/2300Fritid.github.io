@@ -47,9 +47,8 @@
     flex: 1;
     min-width: 0;
 }
-/* Reduced the video column basis so the intro text has more horizontal space */
 .intro-video-col {
-    flex: 0 0 360px;
+    flex: 0 0 340px;
 }
 .video-embed {
     position: relative;
@@ -88,21 +87,34 @@
     padding: 0.25rem 0;
     color: #333;
 }
+/* Ordforklaringsboks (kontingent / kontingentstøtte) */
+.glossary-box {
+    background-color: #fdf6e3;
+    border-left: 4px solid #d4a017;
+    border-radius: 8px;
+    padding: 1.1rem 1.25rem;
+    margin: 1.5rem 0;
+}
+.glossary-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000000;
+    margin: 0 0 0.6rem 0;
+}
+.glossary-item {
+    font-size: 0.95rem;
+    color: #444;
+    margin: 0 0 0.6rem 0;
+    line-height: 1.6;
+}
+.glossary-item:last-child {
+    margin-bottom: 0;
+}
 .contact-info-intro {
     font-size: 1rem;
     color: #555;
     margin: 1.5rem 0 2rem 0;
     font-style: italic;
-}
-/* Hold denne intro på én linje på skærme bredere end 480px */
-@media (min-width: 481px) {
-    .contact-info-intro {
-        white-space: nowrap;
-    }
-    /* Hold den første help-title i intro-teksten på én linje */
-    .intro-text-col > p.help-title:first-child {
-        white-space: nowrap;
-    }
 }
 /* Contact Cards Section */
 .contact-content h2 {
