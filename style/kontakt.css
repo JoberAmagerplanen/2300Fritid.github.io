@@ -87,28 +87,26 @@
     padding: 0.25rem 0;
     color: #333;
 }
-/* Ordforklaringsboks (kontingent / kontingentstøtte) */
+/* Ordforklaringsboks (kontingent) - fuld bredde, under video-rækken */
 .glossary-box {
+    max-width: 700px;
     background-color: #fdf6e3;
     border-left: 4px solid #d4a017;
     border-radius: 8px;
-    padding: 1.1rem 1.25rem;
-    margin: 1.5rem 0;
+    padding: 0.85rem 1.1rem;
+    margin: 0 0 1.5rem 0;
 }
 .glossary-title {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 600;
     color: #000000;
-    margin: 0 0 0.6rem 0;
+    margin: 0 0 0.35rem 0;
 }
 .glossary-item {
-    font-size: 0.95rem;
-    color: #444;
-    margin: 0 0 0.6rem 0;
-    line-height: 1.6;
-}
-.glossary-item:last-child {
-    margin-bottom: 0;
+    font-size: 0.85rem;
+    color: #555;
+    margin: 0;
+    line-height: 1.5;
 }
 .contact-info-intro {
     font-size: 1rem;
