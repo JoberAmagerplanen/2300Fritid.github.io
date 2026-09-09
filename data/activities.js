@@ -230,10 +230,35 @@ const activities = [
     category: "Krea & kultur",
     x: 22.4,
     y: 34.9,
-    location: "Sundholmsvej 8",
-    description: "Bliv undervist i cirkusdiscipliner og fysisk teater af professionelle cirkusartister og performere. Lær bl.a. luftakrobatik, akrobatik på gulv, partnerakrobatik, linedans og jonglering. Vi tilbyder cirkushold for børn i alderen 7-9 og 10-13 år samt to ungdomshold gennem Københavns Ungdomsskole 13-18 år.",
-    time: "Eftermiddage",
-    contact: "https://www.glimtamager.dk/portfolio-item/cirkushold/"
+    location: "Maskinhallen",
+    description: "Bliv undervist i cirkusdiscipliner og fysisk teater af professionelle cirkusartister og performere. Lær bl.a. luftakrobatik, akrobatik på gulv, partnerakrobatik, linedans og jonglering. Vi har to hold: 7-9 år og 10-13 år - Kræver tilmelding.",
+    time: "Onsdage",
+    contact: "https://www.glimtamager.dk/portfolio-item/centrifugal/",
+    price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
+  },
+  {
+    id: 3,
+    title: "Cirkus & akrobatik (Glimt Amager)",
+    category: "Krea & kultur",
+    x: 23.4,
+    y: 34.9,
+    location: "Maskinhallen",
+    description: "Her er luftakrobatik i højsædet. Uanset om du tænder på at svæve i trapezen højt oppe under loftet eller svinge rundt i aerial silks er der plads til dig på Luftakrobatik. Vi skal skabe højt flyvende og poetisk samtidscirkus sammen, udforske cirkusdiscipliner og integrere fysisk teater og performance. Fra 13-18 år – Kræver tilmelding.",
+    time: "Tirsdag kl. 16-18",
+    contact: "https://www.glimtamager.dk/portfolio-item/ungdomshold/ ",
+    price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
+   },
+   {
+    id: 3,
+    title: "Cirkus & akrobatik (Glimt Amager)",
+    category: "Krea & kultur",
+    x: 22.4,
+    y: 39.9,
+    location: "Peder Lykke Skolen",
+    description: "Bliv undervist i cirkusdiscipliner og fysisk teater af professionelle cirkusartister og performere. Lær bl.a. luftakrobatik, akrobatik på gulv, partnerakrobatik, linedans og jonglering. Vi har to hold: Fra 1.-3. klasse og 4.-6. klasse - Kræver tilmelding",
+    time: "Mandage",
+    contact: "https://www.glimtamager.dk/portfolio-item/cirkushold-pederlykkeskolen/",
+    price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
   },
   {
     id: 3,
@@ -242,9 +267,10 @@ const activities = [
     x: 21.8,
     y: 93.8,
     location: "Remisevej 14",
-    description: "Kulturpiloterne er en gruppe børn og unge, der arbejder med forskellige former for kunst og kultur. Du er altid velkommen. Skriv og hør om vi har plads og hvornår det kan passe at du starter på holdet. Det koster ikke noget at deltage, men vi forventer at du møder op hver gang, på samme vis som til alle andre fritidsaktiviteter.",
+    description: "Kulturpiloterne er en gruppe børn og unge, der arbejder med forskellige former for kunst og kultur. Fra 10-16 år. Skriv og hør om vi har plads og hvornår det kan passe at du starter på holdet. Vi forventer, at du møder op hver gang, på samme vis som til alle andre fritidsaktiviteter.",
     time: "Eftermiddage",
-    contact: "https://kulturogfritids.kk.dk/huse/kulturpilot-amager"
+    contact: "https://kulturogfritids.kk.dk/huse/kulturpilot-amager",
+    price: "Gratis"
   },
   {
     id: 2,
