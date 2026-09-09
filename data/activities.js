@@ -39,7 +39,7 @@ const activities = [
     x: 25.9,
     y: 82,
     location: "Tvillingebanerne i Remiseparken",
-    description: "Street fodbold med GAME – kræver ingen tilmelding, bare duk op!",
+    description: "Street fodbold med GAME. Fra 8-15 år – kræver ingen tilmelding, bare duk op!",
     time: "Fredage kl. 16-17",
     contact: "https://www.instagram.com/gamestreetmekkakbh/",
     price: "Gratis"
@@ -99,7 +99,7 @@ const activities = [
     x: 27.5,
     y: 82,
     location: "Tvillingebanerne i Remiseparken",
-    description: "Street basket med GAME – kræver ingen tilmelding, bare duk op!",
+    description: "Street basket med GAME. Fra 8-15 år – kræver ingen tilmelding, bare duk op!",
     time: "Onsdage kl. 16.15-17.15",
     contact: "https://www.instagram.com/gamestreetmekkakbh/",
     price: "Gratis"
