@@ -225,9 +225,9 @@ const activities = [
     price: "Gratis"
   },
   {
-    id: 3,
+    id: 2,
     title: "Cirkus & akrobatik (Glimt Amager)",
-    category: "Krea & kultur",
+    category: "Dans & bevægelse",
     x: 22.4,
     y: 34.9,
     location: "Maskinhallen",
@@ -237,9 +237,9 @@ const activities = [
     price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
   },
   {
-    id: 3,
+    id: 2,
     title: "Cirkus & akrobatik (Glimt Amager)",
-    category: "Krea & kultur",
+    category: "Dans & bevægelse",
     x: 23.4,
     y: 34.9,
     location: "Maskinhallen",
@@ -249,9 +249,9 @@ const activities = [
     price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
    },
    {
-    id: 3,
+    id: 2,
     title: "Cirkus & akrobatik (Glimt Amager)",
-    category: "Krea & kultur",
+    category: "Dans & bevægelse",
     x: 22.4,
     y: 39.9,
     location: "Peder Lykke Skolen",
