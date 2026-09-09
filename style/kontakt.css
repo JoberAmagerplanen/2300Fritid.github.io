@@ -39,7 +39,7 @@
 /* Intro-tekst + video side om side */
 .intro-video-row {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 2rem;
     margin-bottom: 1.5rem;
 }
@@ -49,6 +49,8 @@
 }
 .intro-video-col {
     flex: 0 0 340px;
+    display: flex;
+    flex-direction: column;
 }
 .video-embed {
     position: relative;
@@ -89,13 +91,13 @@
 }
 /* Ordforklaringsboks (kontingent) - centreret, under video-rækken */
 .glossary-box {
-    max-width: 600px;
+    width: 100%;
     background-color: #fdf6e3;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    padding: 0.75rem 1.1rem;
-    margin: 0.5rem auto 1.5rem auto;
-    text-align: center;
+    padding: 0.75rem 1rem;
+    margin: 1rem 0 0 0;
+    text-align: left;
 }
 .glossary-title {
     font-size: 0.85rem;
