@@ -240,7 +240,7 @@ const activities = [
     id: 2,
     title: "Cirkus & akrobatik (Glimt Amager)",
     category: "Dans & bevægelse",
-    x: 16.8,
+    x: 17.6,
     y: 37.5,
     location: "Maskinhallen",
     description: "Her er luftakrobatik i højsædet. Uanset om du tænder på at svæve i trapezen højt oppe under loftet eller svinge rundt i aerial silks er der plads til dig på Luftakrobatik. Vi skal skabe højt flyvende og poetisk samtidscirkus sammen, udforske cirkusdiscipliner og integrere fysisk teater og performance. Fra 13-18 år – Kræver tilmelding.",
