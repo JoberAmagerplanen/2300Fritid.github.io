@@ -253,7 +253,7 @@ const activities = [
     title: "Cirkus & akrobatik (Glimt Amager)",
     category: "Dans & bevægelse",
     x: 24.0,
-    y: 60.4,
+    y: 60.6,
     location: "Peder Lykke Skolen",
     description: "Bliv undervist i cirkusdiscipliner og fysisk teater af professionelle cirkusartister og performere. Lær bl.a. luftakrobatik, akrobatik på gulv, partnerakrobatik, linedans og jonglering. Vi har to hold: Fra 1.-3. klasse og 4.-6. klasse - Kræver tilmelding",
     time: "Mandage",
