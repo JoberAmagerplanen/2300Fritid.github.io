@@ -29,7 +29,7 @@ const activities = [
     location: "Rød Bane",
     description: "\"Leg og Bold\" fodbold med Idrætsprojektet, B1908 og Brobold – kræver ingen tilmelding, bare duk op!",
     time: "Torsdage kl. 15-17",
-    contact: "https://www.instagram.com/idraetsprojektet/",
+    contact: "Cecilie på tlf. 20 14 80 18",
     price: "Gratis"
   },
   {
@@ -81,15 +81,15 @@ const activities = [
     price: "Gratis"
   },
   {
-    id: 4,
-    title: "Boksning (ABC-boksning)",
-    category: "Kampsport",
+    id: 5,
+    title: "Fællesskab og aktiviteter",
+    category: "Andet",
     x: 43.8,
     y: 54.2,
     location: "Blå Bane",
-    description: "Boksning med ABC-boksning – kræver ingen tilmelding, bare duk op!",
+    description: "Containeren er åben og man kan låne forskelligt udstyr hyggelige og sjove aktiviteter sammen med to trænere fra Idrætsprojektet – kræver ingen tilmelding, bare duk op!",
     time: "Tirsdage kl. 16-18",
-    contact: "https://www.instagram.com/amagerboxing/",
+    contact: "Cecilie på tlf. 20 14 80 18",
     price: "Gratis"
   },
   {
@@ -220,7 +220,7 @@ const activities = [
     y: 43.2,
     location: "Laden",
     description: "Boksning med Street Society – kræver ingen tilmelding, bare duk op!",
-    time: "?",
+    time: "Onsdage og søndage",
     contact: "https://www.instagram.com/streetsocietydk/",
     price: "Gratis"
   },
