@@ -348,7 +348,7 @@ const activities = [
     id: 2,
     title: "Dans: Afro fusion (Global Kidz)",
     category: "Dans & bevægelse",
-    x: 66.6,
+    x: 66.3,
     y: 19.2,
     location: "Skolen på Amagerbro",
     description: "Afro eller Afro Fusion er ikke én enkelt dansestil, men en dynamisk blanding af dansestilarter fra hele det afrikanske kontinent. Fra 6-8 år - kræver tilmelding.",
