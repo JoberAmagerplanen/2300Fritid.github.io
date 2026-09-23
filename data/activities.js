@@ -219,8 +219,8 @@ const activities = [
     x: 19.8,
     y: 43.2,
     location: "Laden",
-    description: "Boksning med Street Society – kræver ingen tilmelding, bare duk op!",
-    time: "Onsdage og søndage",
+    description: "Boksning med Street Society for unge +13 år – kræver ingen tilmelding, bare duk op!",
+    time: "Onsdag kl. 18-20 og søndag kl. 14-16",
     contact: "https://www.instagram.com/streetsocietydk/",
     price: "Gratis"
   },
