@@ -408,7 +408,7 @@ const activities = [
     id: 2,
     title: "Street dance (GAME)",
     category: "Dans & bevægelse",
-    x: 14.8,
+    x: 15.2,
     y: 46.1,
     location: "A-huset, Amagerfælledvej 73",
     description: "Er du mellem 8-15 år - og vil du gerne gå til dans, hvor det vigtigste er at have det sjovt? Så kom og vær med. Du behøver ikke at have prøvet at danse før - Kræver ingen tilmelding, bare duk op!",
