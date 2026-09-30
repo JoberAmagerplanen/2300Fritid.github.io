@@ -41,7 +41,7 @@ const activities = [
     location: "Tvillingebanerne i Remiseparken",
     description: "Street fodbold med GAME. Fra 8-15 år – kræver ingen tilmelding, bare duk op!",
     time: "Fredage kl. 16-17",
-    contact: "https://www.instagram.com/gamestreetmekkakbh/",
+    contact: "https://www.instagram.com/game_weloveasphalt/",
     price: "Gratis"
   },
   {
@@ -101,7 +101,7 @@ const activities = [
     location: "Tvillingebanerne i Remiseparken",
     description: "Street basket med GAME. Fra 8-15 år – kræver ingen tilmelding, bare duk op!",
     time: "Onsdage kl. 16.15-17.15",
-    contact: "https://www.instagram.com/gamestreetmekkakbh/",
+    contact: "https://www.instagram.com/game_weloveasphalt/",
     price: "Gratis"
   },
   {
@@ -404,6 +404,18 @@ const activities = [
     contact: "https://www.amager-sk.dk/klub/amager-sk--3/hold/lopperne-4-5-ar-tirsdag",
     price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
    },
+   {
+    id: 2,
+    title: "Street dance (GAME)",
+    category: "Dans & bevægelse",
+    x: 14.8,
+    y: 46.1,
+    location: "A-huset, Amagerfælledvej 73",
+    description: "Er du mellem 8-15 år - og vil du gerne gå til dans, hvor det vigtigste er at have det sjovt? Så kom og vær med. Du behøver ikke at have prøvet at danse før - Kræver ingen tilmelding, bare duk op!",
+    time: "Mandage kl. 17-18",
+    contact: "https://www.instagram.com/game_weloveasphalt/",
+    price: "Gratis"
+    },
 ];
 /**
  * VEJLEDNING TIL JUSTERING AF PIN-PLACERING:
