@@ -99,7 +99,7 @@
 .events-button {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: 0.5rem;
   width: 210px;
