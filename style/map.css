@@ -93,9 +93,9 @@
 }
 
 /* Events-knap: afrundet "kort" i stedet for en pille, så den skiller sig
-   tydeligt ud fra filterknapperne. Ligger som standard under kortet
-   (centreret), og flyttes ud til højre for kortet på brede skærme,
-   uden at kortet selv rykker sig. */
+   tydeligt ud fra filterknapperne. På mobil/tablet ligger den over 
+   filter-knapperne og kortet (centreret). På desktop positioneres den
+   til højre for kortet med toppen på samme niveau som kortets top. */
 .events-button {
   display: flex;
   flex-direction: column;
@@ -103,7 +103,7 @@
   justify-content: center;
   gap: 0.5rem;
   width: 210px;
-  margin: 1.5rem auto 0 auto;
+  margin: 0 auto 2rem auto;
   padding: 1.25rem 1rem;
   background-color: #e74c3c;
   color: white;
@@ -116,6 +116,7 @@
   line-height: 1.4;
   animation: events-pulse 2.5s ease-in-out infinite;
   transition: transform 0.2s ease;
+  order: -1;
 }
 
 .events-button:hover {
@@ -136,18 +137,29 @@
 }
 
 /* På brede skærme: flyt knappen ud til højre for kortet, uden at
-   kortet selv flytter sig (knappen er taget ud af normal flow) */
+   kortet selv flytter sig. Toppen af knappen skal være på samme niveau
+   som toppen af kortet. */
 @media (min-width: 1150px) {
-  .events-button {
-    position: absolute;
-    top: 50%;
-    left: calc(100% + 2.5rem);
-    transform: translateY(-50%);
+  #map-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 2.5rem;
+  }
+
+  #map-container {
+    flex: 0 0 auto;
     margin: 0;
+    padding: 0;
+  }
+
+  .events-button {
+    flex: 0 0 210px;
+    margin: 0;
+    order: 0;
   }
 
   .events-button:hover {
-    transform: translateY(-50%) scale(1.06);
+    transform: scale(1.06);
   }
 }
 
