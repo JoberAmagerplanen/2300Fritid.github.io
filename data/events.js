@@ -18,7 +18,7 @@ const events = [
   },
   {
     id: 3,
-    title: "Efterårsferie-aktiviteter",
+    title: "Feriecamp",
     dateStart: "2026-10-12",
     dateEnd: "2026-10-16",
     time: "09:30-16:00",
