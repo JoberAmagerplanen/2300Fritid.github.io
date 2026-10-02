@@ -44,6 +44,16 @@ function formatEventDateRange(event) {
   return `${start.getDate()}. ${monthNames[start.getMonth()]} - ${end.getDate()}. ${monthNames[end.getMonth()]}`;
 }
 
+function formatDescriptionWithLinks(text) {
+  if (!text) return '';
+
+  const urlRegex = /(https?:\/\/[^\s]+)/g;
+  return escapeHtml(text).replace(urlRegex, (url) => {
+    const safeUrl = escapeHtml(url);
+    return `<a href="${safeUrl}" target="_blank" rel="noopener noreferrer" class="event-link">Se mere her ↗</a>`;
+  });
+}
+
 function renderEventCard(event) {
   const card = document.createElement('article');
   card.className = 'event-card';
@@ -63,7 +73,7 @@ function renderEventCard(event) {
         ${event.time ? `<span class="event-meta-row">🕐 ${escapeHtml(event.time)}</span>` : ''}
         ${event.location ? `<span class="event-meta-row">📍 ${escapeHtml(event.location)}</span>` : ''}
       </div>
-      ${event.description ? `<p class="event-description">${escapeHtml(event.description)}</p>` : ''}
+      ${event.description ? `<p class="event-description">${formatDescriptionWithLinks(event.description)}</p>` : ''}
     </div>
   `;
 
