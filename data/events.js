@@ -23,6 +23,6 @@ const events = [
     dateEnd: "2026-10-16",
     time: "10:00-16:00",
     location: "Den bemandede legeplads Elba",
-    description: "Forskellige sjove aktiviteter i efterårsferien for de mindste. Aktiviteterne er altid gratis, uden tilmelding. Ugens program: https://feriecamp.kk.dk/programmer/feriecamp-3-5-aar-paa-amager-efteraarsferien"
+    description: "Forskellige sjove aktiviteter i efterårsferien for de mindste. Aktiviteterne er altid gratis, uden tilmelding. Ugens program: https://feriecamp.kk.dk/sites/default/files/2026-09/FA%20-%20program%20-%20AMAGER%20-%20DBL%20ELBA.pdf"
   }
 ];
