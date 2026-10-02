@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2300 Fritid - Aktuelle events</title>
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/events.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <img src="billeder/2300 fritid logo.png" alt="2300 Fritid Logo">
+            </a>
+            <nav class="navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Kort</a></li>
+                    <li><a href="liste.html" class="nav-link">Liste over aktiviteter</a></li>
+                    <li><a href="om.html" class="nav-link">Om 2300 Fritid</a></li>
+                    <li><a href="kontakt.html" class="nav-link">Kontakt os</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="https://www.instagram.com/amagerplanen/" target="_blank" rel="noopener noreferrer" class="icon-link instagram-icon" aria-label="Følg os på Instagram">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2"/>
+                        <circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="2"/>
+                        <circle cx="17.2" cy="6.8" r="1.2" fill="currentColor"/>
+                    </svg>
+                </a>
+                <a href="https://amagerplanen.dk/" target="_blank" rel="noopener noreferrer" class="icon-link org-logo-link" aria-label="Besøg Amagerplanens hjemmeside">
+                    <img src="billeder/Logo Amagerplanen uden tekst_lille.png" alt="Amagerplanen Logo">
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- Main Content -->
+    <main>
+        <section class="events-hero">
+            <h1>Aktuelle events</h1>
+            <p class="events-tagline">Engangsbegivenheder og særlige arrangementer - ud over de faste aktiviteter på kortet</p>
+        </section>
+        <!-- Events List Container -->
+        <div id="events-list"></div>
+    </main>
+    <!-- Load data and scripts -->
+    <script src="data/events.js"></script>
+    <script src="js/events.js"></script>
+</body>
+</html>
