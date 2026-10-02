@@ -2,8 +2,8 @@ const events = [
   {
     id: 1,
     title: "Fest på blå bane",
-    dateStart: "2026-10-22",
-    time: "mere info følger",
+    dateStart: "2026-10-21",
+    time: "17:00",
     location: "Blå Bane",
     description: "Mere info følger."
   },
