@@ -21,8 +21,8 @@ const events = [
     title: "Efterårsferie-aktiviteter",
     dateStart: "2026-10-12",
     dateEnd: "2026-10-16",
-    time: "10:00-14:00",
-    location: "Flere steder på Amager - se detaljer ved tilmelding",
-    description: "En uge med skiftende aktiviteter i efterårsferien - sport, kreativitet og udflugter. Følg med på Instagram for det daglige program."
+    time: "09:30-16:00",
+    location: "Sundby idrætspark",
+    description: "Forskellige sjove aktiviteter i efterårsferien. Aktiviteterne er altid gratis, uden tilmelding og alle 6-12-årige kan deltage. Se programmet her https://feriecamp.kk.dk/sites/default/files/2026-09/FerieCamp%20-%20Program%20-%20Sundby%20Idr%C3%A6tspark%20-%20AMAGER_0.pdf."
   }
 ];
