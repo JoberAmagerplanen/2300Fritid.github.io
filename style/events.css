@@ -1,0 +1,167 @@
+/* ===========================
+   Events Styling (Aktuelle events)
+   =========================== */
+
+/* ===== HERO ===== */
+
+.events-hero {
+    text-align: center;
+    padding: 1.5rem 2rem 0.5rem 2rem;
+}
+
+.events-hero h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000000;
+    margin: 0 0 0.5rem 0;
+}
+
+.events-tagline {
+    font-size: 1.05rem;
+    color: #555;
+    margin: 0;
+}
+
+/* ===== EVENTS LISTE ===== */
+
+#events-list {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.events-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+/* ===== EVENT-KORT ===== */
+
+.event-card {
+    display: flex;
+    align-items: stretch;
+    gap: 1.25rem;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.event-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+/* Dato-badge i venstre side */
+.event-date-badge {
+    flex: 0 0 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e74c3c;
+    color: white;
+    padding: 1rem 0.5rem;
+    text-align: center;
+}
+
+.event-day {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.event-month {
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    margin-top: 0.2rem;
+}
+
+/* Indhold til højre for dato-badge */
+.event-content {
+    flex: 1;
+    min-width: 0;
+    padding: 1.25rem 1.25rem 1.25rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.event-title {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.event-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.event-meta-row {
+    white-space: nowrap;
+}
+
+.event-description {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* ===== TOM TILSTAND ===== */
+
+.events-empty {
+    text-align: center;
+    padding: 2.5rem 1.5rem;
+    color: #999;
+    font-style: italic;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 600px) {
+    .events-hero h1 {
+        font-size: 1.6rem;
+    }
+
+    .events-tagline {
+        font-size: 0.95rem;
+    }
+
+    .event-card {
+        flex-direction: column;
+    }
+
+    .event-date-badge {
+        flex-direction: row;
+        gap: 0.4rem;
+        padding: 0.6rem 1rem;
+    }
+
+    .event-day {
+        font-size: 1.2rem;
+    }
+
+    .event-month {
+        font-size: 0.9rem;
+        margin-top: 0;
+    }
+
+    .event-content {
+        padding: 1rem;
+    }
+
+    .event-title {
+        font-size: 1.05rem;
+    }
+}
