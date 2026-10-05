@@ -32,7 +32,7 @@ const events = [
     dateEnd: "2026-10-18",
     time: "",
     location: "Amager",
-    description: "Gratis eller billige teaterforestillinger og workshops for børn i efterårsferien. Ugens program: https://brugbyen.kk.dk/det-sker/teatermagi?viewsreference%5Bcompressed%5D=eJxlUtFuwjAM_Bc_94FqaEB_ZZoir3GDNTepEgNDiH9fvIAqjYc4te98Pre9gUdFGG5AP0sq5N3EopQLDPEk0gHmcJopankARlVWIRgAOvBcNPOoMHx8djCiUkiZqbQ85HRarKPfVHoNHfS9PfVw72ARHKkRJY0o7puul5T9X8PhYLwaK3HKRG6pY2woilgtTVMhfbp8OGrJkdCb0ZYtGNZEeGZtzp-LNagqUsQvqS-gyirHUMzG6_avpVW13bYZ5spw9bBenV4XM16LGDIuR_hPYG-7vh_69-3uBRSMYUzeFDyu6MQk3kWcDTgzXYrLNFHFRnJ0NorUb7M2ZDpz4RTbtLftrt_s9xVuQqw0O09i_8Lm_gtad7cp&soeg=&dates%5Bmin%5D=&dates%5Bmax%5D=&district%5B0%5D=41&district%5B1%5D=42&free=1&local_keyword="
+    description: "Gratis eller billige teaterforestillinger og workshops for børn i efterårsferien. Ugens program: https://brugbyen.kk.dk/det-sker/teatermagi/teatermagi-i-din-bydel/teatermagi-amager"
   },
    {
     id: 5,
