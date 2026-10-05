@@ -14,7 +14,12 @@
             <a href="index.html" class="logo">
                 <img src="billeder/2300 fritid logo.png" alt="2300 Fritid Logo">
             </a>
-            <nav class="navigation">
+            <button class="hamburger-menu" id="hamburger-menu" aria-label="Menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="navigation" id="navigation">
                 <ul class="nav-list">
                     <li><a href="index.html" class="nav-link active">Kort</a></li>
                     <li><a href="liste.html" class="nav-link">Liste over aktiviteter</a></li>
@@ -65,5 +70,6 @@
     <!-- Load data and scripts -->
     <script src="data/activities.js"></script>
     <script src="js/map.js"></script>
+    <script src="js/hamburger.js"></script>
 </body>
 </html>
