@@ -18,6 +18,9 @@ const activeFilters = {
   "Andet": true
 };
 
+// Holder styr på om "Kun gratis"-filteret er slået til
+let showOnlyFree = false;
+
 // Holder styr på aktuel åben popup
 let currentPopup = null;
 
@@ -53,17 +56,22 @@ function formatContact(contact) {
 }
 
 /**
+ * Afgør om en aktivitet er gratis, ud fra dens price-felt.
+ * Bruges både til pris-badgen og til "Kun gratis"-filteret.
+ */
+function isFreeActivity(price) {
+  return !!(price && price.trim().toLowerCase().startsWith('gratis'));
+}
+
+/**
  * Renderer pris-badge (Gratis / Kræver betaling), hvis aktiviteten har et price-felt.
  * Aktiviteter uden price-felt viser ingen badge.
- * Tekst der starter med "gratis" (uanset store/små bogstaver) bliver grøn,
- * alt andet bliver lilla ("kræver betaling").
  */
 function renderPriceBadge(price) {
   if (!price || !price.trim()) {
     return '';
   }
-  const isFree = price.trim().toLowerCase().startsWith('gratis');
-  const priceClass = isFree ? 'price-free' : 'price-paid';
+  const priceClass = isFreeActivity(price) ? 'price-free' : 'price-paid';
   return `<span class="price-badge ${priceClass}">${escapeHtml(price)}</span>`;
 }
 
@@ -74,6 +82,7 @@ function renderPriceBadge(price) {
 document.addEventListener('DOMContentLoaded', () => {
   initializeMap();
   setupFilterButtons();
+  setupFreeFilterButton();
   setupCoordinateHelper();
 });
 
@@ -105,6 +114,7 @@ function renderPin(activity, container) {
   pin.style.top = activity.y + '%';
   pin.setAttribute('data-activity-id', activity.id);
   pin.setAttribute('data-category', activity.category);
+  pin.setAttribute('data-free', isFreeActivity(activity.price) ? 'true' : 'false');
 
   // Opret SVG cirkel ikon (lille prik)
   pin.innerHTML = `
@@ -234,16 +244,45 @@ function setupFilterButtons() {
 }
 
 /**
- * Opdaterer synligheden af pins baseret på aktive filtre
+ * Sætter up "Kun gratis"-knappen. Fungerer uafhængigt af kategoriknapperne
+ * (tænd/sluk-toggle, ikke "isoler") og kan kombineres frit med dem.
+ */
+function setupFreeFilterButton() {
+  const filterContainer = document.getElementById('filter-buttons');
+
+  if (!filterContainer) {
+    return;
+  }
+
+  const button = document.createElement('button');
+  button.className = 'filter-button free-filter-button';
+  button.textContent = 'Kun gratis';
+  button.setAttribute('aria-pressed', 'false');
+
+  button.addEventListener('click', () => {
+    showOnlyFree = !showOnlyFree;
+    button.classList.toggle('active', showOnlyFree);
+    button.setAttribute('aria-pressed', String(showOnlyFree));
+    updatePinVisibility();
+  });
+
+  filterContainer.appendChild(button);
+}
+
+/**
+ * Opdaterer synligheden af pins baseret på aktive kategorifiltre
+ * og "Kun gratis"-filteret
  */
 function updatePinVisibility() {
   const pins = document.querySelectorAll('.map-pin');
 
   pins.forEach(pin => {
     const category = pin.getAttribute('data-category');
-    const isActive = activeFilters[category];
-    
-    if (isActive) {
+    const isCategoryActive = activeFilters[category];
+    const isFree = pin.getAttribute('data-free') === 'true';
+    const passesFreeFilter = !showOnlyFree || isFree;
+
+    if (isCategoryActive && passesFreeFilter) {
       pin.classList.remove('hidden');
     } else {
       pin.classList.add('hidden');
