@@ -7,6 +7,7 @@
  * Funktionalitet:
  * - Grupperer aktiviteter efter kategori
  * - Filter-buttons til at vise/skjule kategorier (klik isolerer en kategori)
+ * - "Kun gratis"-knap, der kan kombineres med kategorifiltrene
  * - Responsive aktivitetskort
  */
 
@@ -22,6 +23,9 @@ const activeFilters = {
   "Kampsport": true,
   "Andet": true
 };
+
+// Holder styr på om "Kun gratis"-filteret er slået til
+let showOnlyFree = false;
 
 // Kategori-mapping (id til kategori)
 const categoryMap = {
@@ -47,6 +51,7 @@ const categoryClassMap = {
 
 document.addEventListener('DOMContentLoaded', () => {
   setupFilterButtons();
+  setupFreeFilterButton();
   renderActivitiesList();
 });
 
@@ -99,13 +104,39 @@ function setupFilterButtons() {
         btn.classList.toggle('active', activeFilters[btnCategory]);
       });
 
-      // Opdater kategorisektioners synlighed
-      updateCategoryVisibility();
+      // Opdater synlighed
+      updateVisibility();
     });
 
     buttons.push(button);
     filterContainer.appendChild(button);
   });
+}
+
+/**
+ * Sætter up "Kun gratis"-knappen. Fungerer uafhængigt af kategoriknapperne
+ * (tænd/sluk-toggle, ikke "isoler") og kan kombineres frit med dem.
+ */
+function setupFreeFilterButton() {
+  const filterContainer = document.getElementById('filter-buttons');
+
+  if (!filterContainer) {
+    return;
+  }
+
+  const button = document.createElement('button');
+  button.className = 'filter-button free-filter-button';
+  button.textContent = 'Kun gratis';
+  button.setAttribute('aria-pressed', 'false');
+
+  button.addEventListener('click', () => {
+    showOnlyFree = !showOnlyFree;
+    button.classList.toggle('active', showOnlyFree);
+    button.setAttribute('aria-pressed', String(showOnlyFree));
+    updateVisibility();
+  });
+
+  filterContainer.appendChild(button);
 }
 
 // ===========================
@@ -203,6 +234,8 @@ function renderCategorySection(category, activitiesInCategory) {
 function renderActivityCard(activity) {
   const card = document.createElement('div');
   card.className = `activity-card ${categoryClassMap[activity.category]}`;
+  // Bruges af gratis-filteret til at afgøre om kortet skal vises/skjules
+  card.setAttribute('data-free', isFreeActivity(activity.price) ? 'true' : 'false');
 
   card.innerHTML = `
     <h3 class="activity-title">${escapeHtml(activity.title)}</h3>
@@ -239,19 +272,48 @@ function renderActivityCard(activity) {
 // ===========================
 
 /**
- * Opdaterer synligheden af kategorisektioner baseret på aktive filtre
+ * Opdaterer synligheden af kategorisektioner OG enkelte aktivitetskort,
+ * baseret på både kategorifiltre og "Kun gratis"-filteret.
  */
-function updateCategoryVisibility() {
+function updateVisibility() {
   const sections = document.querySelectorAll('.category-section');
 
   sections.forEach(section => {
     const category = section.getAttribute('data-category');
-    const isActive = activeFilters[category];
+    const isCategoryActive = activeFilters[category];
 
-    if (isActive) {
-      section.classList.remove('hidden');
-    } else {
-      section.classList.add('hidden');
+    // Hel kategori skjules, hvis dens filterknap er fravalgt
+    section.classList.toggle('hidden', !isCategoryActive);
+
+    if (!isCategoryActive) {
+      return;
+    }
+
+    // Inden for en synlig kategori: skjul evt. ikke-gratis kort,
+    // hvis "Kun gratis" er slået til
+    const cards = section.querySelectorAll('.activity-card');
+    let visibleCount = 0;
+
+    cards.forEach(card => {
+      const isFree = card.getAttribute('data-free') === 'true';
+      const shouldHide = showOnlyFree && !isFree;
+      card.classList.toggle('hidden', shouldHide);
+      if (!shouldHide) {
+        visibleCount++;
+      }
+    });
+
+    // Vis en besked, hvis "Kun gratis" filtrerer en hel kategori helt væk
+    let noFreeMessage = section.querySelector('.category-empty.free-filter-empty');
+    if (showOnlyFree && visibleCount === 0 && cards.length > 0) {
+      if (!noFreeMessage) {
+        noFreeMessage = document.createElement('div');
+        noFreeMessage.className = 'category-empty free-filter-empty';
+        noFreeMessage.textContent = 'Ingen gratis aktiviteter i denne kategori lige nu.';
+        section.appendChild(noFreeMessage);
+      }
+    } else if (noFreeMessage) {
+      noFreeMessage.remove();
     }
   });
 }
@@ -261,17 +323,22 @@ function updateCategoryVisibility() {
 // ===========================
 
 /**
+ * Afgør om en aktivitet er gratis, ud fra dens price-felt.
+ * Bruges både til pris-badgen og til "Kun gratis"-filteret.
+ */
+function isFreeActivity(price) {
+  return !!(price && price.trim().toLowerCase().startsWith('gratis'));
+}
+
+/**
  * Renderer pris-badge (Gratis / Kræver betaling), hvis aktiviteten har et price-felt.
  * Aktiviteter uden price-felt viser ingen badge.
- * Tekst der starter med "gratis" (uanset store/små bogstaver) bliver grøn,
- * alt andet bliver lilla ("kræver betaling").
  */
 function renderPriceBadge(price) {
   if (!price || !price.trim()) {
     return '';
   }
-  const isFree = price.trim().toLowerCase().startsWith('gratis');
-  const priceClass = isFree ? 'price-free' : 'price-paid';
+  const priceClass = isFreeActivity(price) ? 'price-free' : 'price-paid';
   return `<span class="price-badge ${priceClass}">${escapeHtml(price)}</span>`;
 }
 
