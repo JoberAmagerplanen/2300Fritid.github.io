@@ -50,6 +50,25 @@
   background-color: #a0522d;
 }
 
+/* "Kun gratis"-knap - adskiller sig visuelt fra kategoriknapperne med en
+   stiplet kant og samme grønne farve som "Gratis"-prisbadgen, så det er
+   tydeligt, at det er en anden slags filter */
+.free-filter-button {
+  background-color: transparent;
+  color: #16a085;
+  border: 2px solid #16a085;
+  box-shadow: none;
+}
+
+.free-filter-button.active {
+  background-color: #16a085;
+  color: white;
+}
+
+.free-filter-button:hover {
+  opacity: 0.85;
+}
+
 /* Ikke-aktiv tilstand (fravalgt filter) */
 .filter-button:not(.active) {
   opacity: 0.45;
@@ -81,6 +100,10 @@
 }
 
 .category-section.hidden {
+  display: none;
+}
+
+.activity-card.hidden {
   display: none;
 }
 
