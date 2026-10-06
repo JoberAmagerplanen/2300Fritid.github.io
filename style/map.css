@@ -49,6 +49,23 @@
   background-color: #a0522d;
 }
 
+/* "Kun gratis"-knap - adskiller sig visuelt fra kategoriknapperne */
+.free-filter-button {
+  background-color: transparent;
+  color: #16a085;
+  border: 2px solid #16a085;
+  box-shadow: none;
+}
+
+.free-filter-button.active {
+  background-color: #16a085;
+  color: white;
+}
+
+.free-filter-button:hover {
+  opacity: 0.85;
+}
+
 /* Ikke-aktiv tilstand (fravalgt filter) */
 .filter-button:not(.active) {
   opacity: 0.45;
@@ -93,9 +110,9 @@
 }
 
 /* Events-knap: afrundet "kort" i stedet for en pille, så den skiller sig
-   tydeligt ud fra filterknapperne. På mobil/tablet ligger den over 
-   filter-knapperne og kortet (centreret). På desktop positioneres den
-   til højre for kortet med toppen på samme niveau som kortets top. */
+   tydeligt ud fra filterknapperne. Ligger som standard under kortet
+   (centreret), og flyttes ud til højre for kortet på brede skærme,
+   uden at kortet selv rykker sig. */
 .events-button {
   display: flex;
   flex-direction: column;
@@ -103,7 +120,7 @@
   justify-content: center;
   gap: 0.5rem;
   width: 210px;
-  margin: 0 auto 2rem auto;
+  margin: 1.5rem auto 0 auto;
   padding: 1.25rem 1rem;
   background-color: #e74c3c;
   color: white;
@@ -113,16 +130,9 @@
   text-align: center;
   font-weight: 700;
   font-size: 0.95rem;
-  line-height: 1.2;
+  line-height: 1.4;
   animation: events-pulse 2.5s ease-in-out infinite;
   transition: transform 0.2s ease;
-  order: -1;
-}
-
-.events-button span {
-  display: block;
-  max-width: 100%;
-  white-space: normal;
 }
 
 .events-button:hover {
@@ -143,30 +153,18 @@
 }
 
 /* På brede skærme: flyt knappen ud til højre for kortet, uden at
-   kortet selv flytter sig. Toppen af knappen skal være på samme niveau
-   som toppen af kortet. */
+   kortet selv flytter sig (knappen er taget ud af normal flow) */
 @media (min-width: 1150px) {
-  #map-wrapper {
-    display: flex;
-    align-items: flex-start;
-    gap: 2.5rem;
-  }
-
-  #map-container {
-    flex: 0 0 auto;
-    margin: 0;
-    padding: 0;
-  }
-
   .events-button {
-    flex: 0 0 210px;
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 2.5rem);
+    transform: translateY(-50%);
     margin: 0;
-    margin-top: 0.75rem;
-    order: 0;
   }
 
   .events-button:hover {
-    transform: scale(1.06);
+    transform: translateY(-50%) scale(1.06);
   }
 }
 
@@ -399,18 +397,6 @@
     font-size: 0.85rem;
   }
 
-  .events-button {
-    width: 160px;
-    padding: 0.9rem 0.75rem;
-    font-size: 0.85rem;
-    gap: 0.4rem;
-  }
-
-  .events-button svg {
-    width: 24px;
-    height: 24px;
-  }
-
   .popup-content {
     padding: 1.5rem;
   }
@@ -451,19 +437,6 @@
     padding: 0.4rem 0.75rem;
     font-size: 0.75rem;
     min-width: 80px;
-  }
-
-  .events-button {
-    width: 130px;
-    padding: 0.75rem 0.6rem;
-    font-size: 0.75rem;
-    gap: 0.3rem;
-    margin: 0 auto 1.5rem auto;
-  }
-
-  .events-button svg {
-    width: 20px;
-    height: 20px;
   }
 
   .popup-content {
