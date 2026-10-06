@@ -157,14 +157,13 @@
 @media (min-width: 1150px) {
   .events-button {
     position: absolute;
-    top: 50%;
+    top: 0;
     left: calc(100% + 2.5rem);
-    transform: translateY(-50%);
     margin: 0;
   }
 
   .events-button:hover {
-    transform: translateY(-50%) scale(1.06);
+    transform: scale(1.06);
   }
 }
 
