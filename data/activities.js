@@ -444,11 +444,24 @@ const activities = [
     id: 5,
     title: "UngeVærk Nordøst",
     category: "Andet",
-    x: 50.3,
-    y: 50.4,
+    x: 32.3,
+    y: 20.9,
     location: "Brydes Allé 42",
-    description: "Ungeværket er for børn og unge mellem 14 og 17 år. Alle unge er velkomne. I Ungeværket kan du blandt andet spille pool, billard, bordtennis og PlayStation. Derudover har vi et lydstudie, musik øvelokale, træningslokale og en stor sal hvor man blandt andet kan spille fodbold, basket og badminton.",     time: "mandag, onsdag og fredag: 14:00-22:00, tirsdag og torsdag: 14:00-18:00",
-    contact: "https://www.instagram.com/ungevaerk_joker_garagen/",
+    description: "Ungeværket er for børn og unge mellem 14 og 17 år. Alle unge er velkomne. I Ungeværket kan du blandt andet spille pool, billard, bordtennis og PlayStation. Derudover har vi et lydstudie, musik øvelokale, træningslokale og en stor sal hvor man blandt andet kan spille fodbold, basket og badminton - det kræver ingen tilmelding at være i UngeVærket, bare duk op!",     
+    time: "mandag, onsdag og fredag: 14:00-22:00, tirsdag og torsdag: 14:00-18:00",
+    contact: "https://www.instagram.com/ungevaerk_nordoest/",
+    price: "Gratis"
+    },
+   {
+    id: 5,
+    title: "Fritidsjobcafé",
+    category: "Andet",
+    x: 47.4,
+    y: 13.3,
+    location: "Kvarterhuset, 2. sal",
+    description: "Er du mellem 14-24 år og søger et fritidsjo? Så kom forbi fritidsjobcaféen, hvor du kan få hjælp til at skrive ansøgning, søge job, UU-vejledning, rådgivning i statsborgerskab, fritidsaktiviteter og meget mere - kræver ingen tilmelding, bare duk op!",     
+    time: "mandage kl. 15-16.30",
+    contact: "https://amagerplanen.dk/495-2/",
     price: "Gratis"
     },
 ];
