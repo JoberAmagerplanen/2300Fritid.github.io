@@ -416,6 +416,30 @@ const activities = [
     contact: "https://www.instagram.com/game_weloveasphalt/",
     price: "Gratis"
     },
+   {
+    id: 5,
+    title: "Joker (UngeVærk)",
+    category: "Andet",
+    x: 42.7,
+    y: 86.6,
+    location: "Englandsvej 61",
+    description: "I Joker har de unge mulighed for at få et frirum til at slappe af og hygge lige som de ønsker. Der er også månedlige ture og forskellige gratis eller billige aktiviteter, som man tilmelder sig gennem deres instagram (se link) - Kræver ingen tilmelding, bare duk op!",
+    time: "tirsdag, torsdag og søndag: 17:30-22:00",
+    contact: "https://www.instagram.com/ungevaerk_joker_garagen/",
+    price: "Gratis"
+    },
+  {
+    id: 5,
+    title: "Garagen (UngeVærk)",
+    category: "Andet",
+    x: 21.3,
+    y: 50.4,
+    location: "Brydes Allé 42",
+    description: "I Garagen har de unge mulighed for at få et frirum til at slappe af og hygge lige som de ønsker. Der er også månedlige ture og forskellige gratis eller billige aktiviteter, som man tilmelder sig gennem deres instagram (se link) - Kræver ingen tilmelding, bare duk op!",
+    time: "mandag, onsdag og fredag: 14:00-22:00, tirsdag og torsdag: 14:00-18:00",
+    contact: "https://www.instagram.com/ungevaerk_joker_garagen/",
+    price: "Gratis"
+    },
 ];
 /**
  * VEJLEDNING TIL JUSTERING AF PIN-PLACERING:
