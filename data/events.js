@@ -42,5 +42,13 @@ const events = [
     time: "10-14",
     location: "Lykkebazaren",
     description: "Brug efterårsferien på kreative workshops med tekstiltryk og fællesskab. For børn fra 8-12 år. Det er gratis at være med, men kræver tilmelding. https://kbhgenbruger.kk.dk/aktiviteter-og-events/efteraars-krea-0"
+  },
+  {
+    id: 5,
+    title: "Høstfest i Laden",
+    dateStart: "2026-10-17",
+    time: "13-16",
+    location: "Laden, Sundholm 48",
+    description: "Kom til en hyggelig eftermiddag i Laden, og vær med til at fejre de fantastiske danske efterårsfrugter. Du kan prøve vores nye mostpresser og få din egen æblemost med hjem, lave en mulepose med æbleprint og få en kop kaffe eller en snack. Det er gratis at være med."
   }
 ];
