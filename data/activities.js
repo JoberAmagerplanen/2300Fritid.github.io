@@ -464,6 +464,18 @@ const activities = [
     contact: "https://amagerplanen.dk/495-2/",
     price: "Gratis"
     },
+  {
+    id: 5,
+    title: "Lektiehjælp",
+    category: "Andet",
+    x: 48.3,
+    y: 13.3,
+    location: "Kvarterhuset, 2. sal",
+    description: "Sundby Bibliotek og lektiehjælpere fra Dansk Flygtningehjælp tilbyder gratis lektiehjælp på folkeskole- og gymnasieniveau til børn og voksne - kræver ingen tilmelding, bare duk op!",     
+    time: "mandag-onsdag kl. 17-18.30",
+    contact: "https://bibliotek.kk.dk/sundby-bibliotek/aktiviteter/radgivning/lektiehjaelp/lektiehjaelp",
+    price: "Gratis"
+    },
 ];
 /**
  * VEJLEDNING TIL JUSTERING AF PIN-PLACERING:
