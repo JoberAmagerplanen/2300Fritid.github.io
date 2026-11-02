@@ -1,10 +1,10 @@
 const events = [
   {
     id: 2,
-    title: "Byg dit eget halloweenvæsen",
-    dateStart: "2026-10-31",
-    time: "11:00-13:00",
-    location: "Solvang bibliotek",
-    description: "(U)hyggelig børneworkshop på Solvang bibliotek. Kom og vær med til at bygge dit helt eget, sære væsen ud af ler, krogede grene, lodden uld og tørrede blade. Det er gratis at være med, men kræver tilmelding: https://livisundby.dk/byg-dit-eget-halloweenvaesen/."
+    title: "GRATIS KUNSTVÆRKSTED FOR BØRN – 2 TIRSDAGE MED PORTRÆTTER OG KREATIVITET!",
+    dateStart: "2026-11-10 og 2026-11-17",
+    time: "15:30-18:00",
+    location: "Kvarterhuset, 1. sal",
+    description: "Kom med til to kreative tirsdage, hvor vi dykker ned i portrættets spændende verden sammen med kunstner Tala Porbaha og Kulturpiloterne. Vi eksperimenterer, leger med idéerne og afprøver portrætternes mange muligheder. Her er der plads til at være nysgerrig, tænke anderledes og finde sit helt eget kunstneriske udtryk. Det er helt gratis! Der er et begrænset antal pladser så du skal tilmelde dig hos Maiken på 20516264."
   }
 ];
