@@ -476,6 +476,18 @@ const activities = [
     contact: "https://bibliotek.kk.dk/sundby-bibliotek/aktiviteter/radgivning/lektiehjaelp/lektiehjaelp",
     price: "Gratis"
     },
+   {
+    id: 5,
+    title: "Skakklub for børn",
+    category: "Andet",
+    x: 18.7,
+    y: 93.8,
+    location: "Solvang bibliotek",
+    description: "Skakklub. Alle børn er velkomne, både nye og øvede spillere. Det er gratis at deltage – kræver ingen tilmelding, bare duk op!",
+    time: "Onsdage kl. 13-13.30",
+    contact: "",
+    price: "Gratis"
+  }
 ];
 /**
  * VEJLEDNING TIL JUSTERING AF PIN-PLACERING:
