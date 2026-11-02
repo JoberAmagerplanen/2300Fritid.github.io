@@ -480,7 +480,7 @@ const activities = [
     id: 5,
     title: "Skakklub for børn",
     category: "Andet",
-    x: 18.7,
+    x: 18.4,
     y: 93.8,
     location: "Solvang bibliotek",
     description: "Skakklub. Alle børn er velkomne, både nye og øvede spillere. Det er gratis at deltage – kræver ingen tilmelding, bare duk op!",
