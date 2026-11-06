@@ -180,7 +180,7 @@ const activities = [
     id: 3,
     title: "Garncafé",
     category: "Krea & kultur",
-    x: 23.3,
+    x: 22.7,
     y: 51.4,
     location: "Hørgårdens Nærgenbrugsstation",
     description: "Kom i gang med dine egne sy-projekter. Sycaféen er et åbent fællesskab, hvor der er plads til fordybelse, idéudveksling og inspiration fra andre – kræver ingen tilmelding, bare duk op!",
