@@ -84,7 +84,7 @@ const activities = [
     id: 5,
     title: "Fællesskab og aktiviteter",
     category: "Andet",
-    x: 43.8,
+    x: 43,
     y: 54.2,
     location: "Blå Bane",
     description: "Containeren er åben og man kan låne forskelligt udstyr hyggelige og sjove aktiviteter sammen med to trænere fra Idrætsprojektet – kræver ingen tilmelding, bare duk op!",
