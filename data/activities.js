@@ -136,7 +136,19 @@ const activities = [
     y: 89.8,
     location: "LykkeBazaren, Urmagerstien 26",
     description: "Fordyb dig i garn og håndarbejde i Garncaféen i Lykkebazaren. Her kan du arbejde med tufting, strik og hækling i kreative rammer, uanset om du er nybegynder eller erfaren – kræver ingen tilmelding, bare duk op!",
-    time: "Mandage kl. 14-16.30",
+    time: "Mandage i ulige uger kl. 14-16.30",
+    contact: "https://kbhgenbruger.kk.dk/aktiviteter-og-events/garn-cafe-paa-remiseparken-naergenbrugsstation-lykkebazaren-0",
+    price: "Gratis"
+  },
+   {
+    id: 3,
+    title: "Sycafé",
+    category: "Krea & kultur",
+    x: 24.2,
+    y: 90.8,
+    location: "LykkeBazaren, Urmagerstien 26",
+    description: "Kom i gang med dine egne sy-projekter. Sycaféen er et åbent fællesskab, hvor der er plads til fordybelse, idéudveksling og inspiration fra andre – kræver ingen tilmelding, bare duk op!",
+    time: "Mandage i lige uger kl. 14.30-17.30",
     contact: "https://kbhgenbruger.kk.dk/aktiviteter-og-events/garn-cafe-paa-remiseparken-naergenbrugsstation-lykkebazaren-0",
     price: "Gratis"
   },
@@ -160,8 +172,20 @@ const activities = [
     y: 50.4,
     location: "Hørgårdens Nærgenbrugsstation",
     description: "Kom i gang med dine egne sy-projekter. Sycaféen er et åbent fællesskab, hvor der er plads til fordybelse, idéudveksling og inspiration fra andre – kræver ingen tilmelding, bare duk op!",
-    time: "Torsdage kl. 14.30-17.30",
+    time: "Torsdage i lige kl. 14.30-17.30",
     contact: "https://kbhgenbruger.kk.dk/aktiviteter-og-events/sy-cafe-paa-hoergaarden-naergenbrugsstation-2",
+    price: "Gratis"
+  },
+  {
+    id: 3,
+    title: "Garncafé",
+    category: "Krea & kultur",
+    x: 23.3,
+    y: 51.4,
+    location: "Hørgårdens Nærgenbrugsstation",
+    description: "Kom i gang med dine egne sy-projekter. Sycaféen er et åbent fællesskab, hvor der er plads til fordybelse, idéudveksling og inspiration fra andre – kræver ingen tilmelding, bare duk op!",
+    time: "Torsdage i ulige uger kl. 14.30-17.30",
+    contact: "https://kbhgenbruger.kk.dk/garn-cafe",
     price: "Gratis"
   },
   {
