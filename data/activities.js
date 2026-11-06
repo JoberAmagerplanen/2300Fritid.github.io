@@ -96,7 +96,7 @@ const activities = [
     id: 5,
     title: "Street basket (GAME)",
     category: "Bold",
-    x: 45.8,
+    x: 46.4,
     y: 54.2,
     location: "Blå Bane",
     description: "Street basket med GAME. Fra 8-15 år – kræver ingen tilmelding, bare duk op!",
