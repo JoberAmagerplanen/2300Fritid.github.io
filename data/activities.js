@@ -48,7 +48,7 @@ const activities = [
     id: 1,
     title: "Street café for piger (Street Society)",
     category: "Bold",
-    x: 43.6,
+    x: 43.9,
     y: 86.6,
     location: "Sundby idrætspark",
     description: "Street café rykker indenfor, og starter på igen 28.10. Street fodbold for piger med Street Society – kræver ingen tilmelding, bare duk op!",
