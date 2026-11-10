@@ -241,11 +241,23 @@ const activities = [
     title: "Dans: K-pop (Amager SK)",
     category: "Dans & bevægelse",
     x: 92.7,
-    y: 4,
+    y: 3.9,
     location: "Nordøstamager Skole",
     description: "Træd ind i K-pop-verdenen! Dette sjove og energifyldte dansehold er inspireret af bevægelserne og musikken fra dine yndlings K-pop-idoler. To hold fra 9-16 år - kræver tilmelding.",
     time: "Torsdage kl. 17-18 & kl. 18-19.30",
     contact: "https://www.amager-sk.dk/klub/amager-sk--3/hold/k-pop-dance-9-12-ar-torsdag",
+    price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
+  },
+  {
+    id: 2,
+    title: "Gymnastik (Amager SK)",
+    category: "Dans & bevægelse",
+    x: 91.5,
+    y: 3.7,
+    location: "Sundbyøsterhallen",
+    description: "Gå til gymnastik med Amager SK. Forskellige gymnastikhold fra 1-14 år. Tjek linket under for at se de forskellige hold.",
+    time: "Alle ugens dage",
+    contact: "https://www.amager-sk.dk/klub/amager-sk--3/sider/forside",
     price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
   },
   {
@@ -264,12 +276,24 @@ const activities = [
     id: 2,
     title: "Afrodans og leg (Amager SK)",
     category: "Dans & bevægelse",
-    x: 69,
+    x: 68.9,
     y: 7.5,
     location: "Prismen",
     description: "Afro Fusion er en energisk dansestil, hvor afrikanske rytmer og dansetraditioner møder moderne musik og stilarter som hiphop, dancehall og R&B. Her danser vi til rytmer med masser af groove, attitude og personlighed, mens vi udforsker forskellige bevægelser og udtryk. For 10-13 år - kræver tilmelding.",
     time: "Fredage kl. 17-17:45",
     contact: "https://www.amager-sk.dk/klub/amager-sk--3/hold/afro-fusion-10-13-ar-fredag",
+    price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
+  },
+  {
+    id: 2,
+    title: "Gymnastik for de mindste (Amager SK)",
+    category: "Dans & bevægelse",
+    x: 67.8,
+    y: 7.5,
+    location: "Sundbyøsterhallen",
+    description: "Gå til gymnastik med Amager SK. To forskellige gymnastikhold for de 2-3 årige. Tjek linket under for at se de forskellige hold.",
+    time: "Torsdage og lørdage",
+    contact: "https://www.amager-sk.dk/klub/amager-sk--3/sider/forside",
     price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
   },
   {
@@ -547,7 +571,43 @@ const activities = [
     time: "Onsdage kl. 13-13.30",
     contact: "",
     price: "Gratis"
-  }
+  },
+   {
+    id: 2,
+    title: "Dans: Showmix og MGP-Dans (Amager SK)",
+    category: "Dans & bevægelse",
+    x: 84.2,
+    y: 74.2,
+    location: "Sundbyøsterhallen",
+    description: "To forskellige dansehold. MGP-dans for 6-8 år og Showmix for 8-11 år. Uanset om du har prøvet at danse før, eller det er første gang, er du velkommen",
+    time: "Tirdage kl. 17-18 & 18-19",
+    contact: "https://www.amager-sk.dk/klub/amager-sk--3/hold/mgp-dans-6-8-ar-tirsdag",
+    price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
+  },
+   {
+    id: 1,
+    title: "Håndbold (Amager SK)",
+    category: "Bold",
+    x: 85.4,
+    y: 74.2,
+    location: "Sundbyøsterhallen",
+    description: "Gå til håndbold med Amager SK. Forskellige hold for både piger og drenge, voksne og børn helt ned til 1 år. Tjek linket under for at se de forskellige hold.",
+    time: "Alle unges dage",
+    contact: "https://www.amager-sk.dk/klub/amager-sk--3/sider/forside",
+    price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
+  },
+   {
+    id: 2,
+    title: "Gymnastik for de mindste (Amager SK)",
+    category: "Dans & bevægelse",
+    x: 86.5,
+    y: 74.2,
+    location: "Sundbyøsterhallen",
+    description: "Tre forskellige gymnastikhold for de 2-4 årige. hold. MGP-dans for 6-8 år og Showmix for 8-11 år. Tjek linket under for at se de forskellige hold.",
+    time: "Mandage & tirdage",
+    contact: "https://www.amager-sk.dk/klub/amager-sk--3/sider/forside",
+    price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
+  },
 ];
 /**
  * VEJLEDNING TIL JUSTERING AF PIN-PLACERING:
