@@ -23,5 +23,13 @@ const events = [
     time: "15:00-17:00",
     location: "Solvang Bibliotek",
     description: "Kom ind og få varmen, når vi markerer vinterens og julens traditioner. Vi nærmer os årets korteste dag, en dag hvor vi kan komme med ønsker for det kommen de år – læg dine i vores magiske krukke, og vi lover at sende dem godt afsted. Gå på opdagelse i gode vinterbøger, hyg med dine naboer, kom med i vores kreative værksted og nyd lidt lækkert juleknas undervejs. Vi får også besøg af Klovnen Tape som samler alle om et godt grin. Gratis og uden tilmelding."
+  },
+  {
+    id: 4,
+    title: "Julekunst - eventyrlige peberkagehuse",
+    dateStart: "2026-11-29",
+    time: "10:00-12:00",
+    location: "Solvang bibliotek",
+    description: "Julehyg' og byg med kunstnerduoen ET ANDET STED. Sammen skaber vi med hjælp af farverigt papir, mønstre, collage og genbrugsmaterialer de fineste peberkagehuse. Alle deltagere får deres værk med hjem. Aldersgruppe: 5–12 år, børn deltager ifølge med en voksen - Gratis og uden tilmelding."
   }
 ];
