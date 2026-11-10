@@ -230,10 +230,46 @@ const activities = [
     category: "Dans & bevægelse",
     x: 93.8,
     y: 4.1,
-    location: "Nodøstamager Skole",
+    location: "Nordøstamager Skole",
     description: "Kan du lide at danse, give den gas og lære nye moves? På holdet danser vi til fed musik og arbejder med forskellige genrer. Uanset om du har prøvet at danse før, eller det er første gang, er du velkommen. Dansene tilpasses, så alle kan følge med og have det sjovt. To hold fra 0.-9. klasse - kræver tilmelding.",
     time: "Onsdage kl. 17.15-18.15 & kl. 18.30-19.30",
     contact: "https://www.amager-sk.dk/klub/amager-sk--3/hold/afro-0-3-kl-onsdag",
+    price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
+  },
+  {
+    id: 2,
+    title: "Dans: K-pop (Amager SK)",
+    category: "Dans & bevægelse",
+    x: 92.7,
+    y: 4,
+    location: "Nordøstamager Skole",
+    description: "Træd ind i K-pop-verdenen! Dette sjove og energifyldte dansehold er inspireret af bevægelserne og musikken fra dine yndlings K-pop-idoler. To hold fra 9-16 år - kræver tilmelding.",
+    time: "Torsdage kl. 17-18 & kl. 18-19.30",
+    contact: "https://www.amager-sk.dk/klub/amager-sk--3/hold/k-pop-dance-9-12-ar-torsdag",
+    price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
+  },
+  {
+    id: 2,
+    title: "Afrodans og leg (Amager SK)",
+    category: "Dans & bevægelse",
+    x: 70,
+    y: 7.5,
+    location: "Prismen",
+    description: "Elsker du at danse, lege og bevæge dig til fed musik? Så kom med på Amager SK’s Afro dans og leg for børn i alderen 6–9 år! - kræver tilmelding.",
+    time: "Fredage kl. 16-16:45",
+    contact: "https://www.amager-sk.dk/klub/amager-sk--3/hold/afrodans-og-leg-6-9-ar-fredag",
+    price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
+  },
+  {
+    id: 2,
+    title: "Afrodans og leg (Amager SK)",
+    category: "Dans & bevægelse",
+    x: 69,
+    y: 7.5,
+    location: "Prismen",
+    description: "Afro Fusion er en energisk dansestil, hvor afrikanske rytmer og dansetraditioner møder moderne musik og stilarter som hiphop, dancehall og R&B. Her danser vi til rytmer med masser af groove, attitude og personlighed, mens vi udforsker forskellige bevægelser og udtryk. For 10-13 år - kræver tilmelding.",
+    time: "Fredage kl. 17-17:45",
+    contact: "https://www.amager-sk.dk/klub/amager-sk--3/hold/afro-fusion-10-13-ar-fredag",
     price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
   },
   {
