@@ -608,6 +608,18 @@ const activities = [
     contact: "https://www.amager-sk.dk/klub/amager-sk--3/sider/forside",
     price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
   },
+  {
+    id: 5,
+    title: "Børnekulturhus Ama'r",
+    category: "Andet",
+    x: 69.1,
+    y: 48.1,
+    location: "Øresundsvej 8B",
+    description: "Gå til kultur! Vi tilbyder et væld af forskellige fritidsaktiviteter tilrettelagt for børn og unge i alle aldre. Du kan fx gå til manga-tegningserie, teater, animation og stop-motion, musik og meget mere",     
+    time: "hverdage",
+    contact: "https://bornekulturhusamar.kk.dk/hold",
+    price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
+  },
 ];
 /**
  * VEJLEDNING TIL JUSTERING AF PIN-PLACERING:
