@@ -609,9 +609,9 @@ const activities = [
     price: "Kræver betaling - vi kan hjælpe med at søge støtte til betaling"
   },
   {
-    id: 5,
+    id: 3,
     title: "Børnekulturhus Ama'r",
-    category: "Andet",
+    category: "Krea & kultur",
     x: 69.1,
     y: 48.1,
     location: "Øresundsvej 8B",
