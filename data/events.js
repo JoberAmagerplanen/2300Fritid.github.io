@@ -49,4 +49,12 @@ const events = [
     location: "Lykkebazaren",
     description: "Kom til genbrugsgavemarked og find gratis gaver til børn og voksne. Julegaver, adventsgaver, pakkelegsgaver eller mandelgaver. Uanset hvilken slags, du søger er du velkommen. Hvis du selv har noget du vil give videre, som kunne blive til en god gave for en anden, så tag det med. Du kan pakke dine gaver flot ind med genbrugspapir, -tekstiler og -bånd. Nyd en forfriskning og ønsk glædelig jul til dine naboer, skolekammerater, venner eller andre fra dit lokalområde. Det er gratis at være med."
   },
+   {
+    id: 7,
+    title: "Julemarked i Maskinhallen",
+    dateStart: "2026-11-28",
+    time: "11:00–14:00",
+    location: "Maskinhallen",
+    description: "Slip kreativiteten løs til årets julemarked! Skab flotte juletryk med kunstner Tala Porbaha. Sammen med SESmykker kan du også skabe personlige armbånd af perler - måske som vennerarmbånd eller en fin julegave. Det er gratis at deltage"
+  },
 ];
