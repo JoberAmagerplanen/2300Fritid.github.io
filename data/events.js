@@ -27,7 +27,7 @@ const events = [
   {
     id: 4,
     title: "Julekunst - eventyrlige peberkagehuse",
-    dateStart: "2026-11-29",
+    dateStart: "2026-11-21",
     time: "10:00-12:00",
     location: "Solvang bibliotek",
     description: "Julehyg' og byg med kunstnerduoen ET ANDET STED. Sammen skaber vi med hjælp af farverigt papir, mønstre, collage og genbrugsmaterialer de fineste peberkagehuse. Alle deltagere får deres værk med hjem. Aldersgruppe: 5–12 år, børn deltager ifølge med en voksen - Gratis og uden tilmelding."
