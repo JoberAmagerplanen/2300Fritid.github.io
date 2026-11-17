@@ -31,5 +31,22 @@ const events = [
     time: "10:00-12:00",
     location: "Solvang bibliotek",
     description: "Julehyg' og byg med kunstnerduoen ET ANDET STED. Sammen skaber vi med hjælp af farverigt papir, mønstre, collage og genbrugsmaterialer de fineste peberkagehuse. Alle deltagere får deres værk med hjem. Aldersgruppe: 5–12 år, børn deltager ifølge med en voksen - Gratis og uden tilmelding."
-  }
+  },
+   {
+    id: 5,
+    title: "LYSKUNST til lysfestivalen i Københavne",
+    dateStart: "2026-11-24",
+    dateEnd: "2026-12-15",
+    time: "15:30–18:00",
+    location: "Bella Uno, Emma Gads vej 28",
+    description: "Er du 10 – 15 år og vil du være med til at skabe årets store lyskunstværk til Copenhagen Lightfestival sammen med Kulturpiloterne og kunstnerne fra Tokyo Blue? Over 4 tirsdage skal vi arbejde med lysteknik, maling, udvikling og kreativitet. Det færdige værk bliver monteret på Laden v. Sundholm og skal lyse hele festivalperioden i februar/marts. Tokyo Blue er 3 fantastiske kunstnere, der har skabt lyskunst i mange år. Sammen har bidraget til CPH Lightfestival et utal af gange og de sidste 6 år har de hjulpet kulturpiloterne i mål med nogle helt utrolige lysværket; bl.a. ’Sol over Kål’ og ’OPHOLD’. Gratis at deltage, men du skal tilmelde dig hos Maiken på J17R@kk.dk, da vi kun har nogle få pladser. Skriv dit navn og din alder, samt hvilken skole du går på."
+  },
+  {
+    id: 6,
+    title: "Genbrugsgavemarked",
+    dateStart: "2026-12-13",
+    time: "13:00–16:00",
+    location: "Lykkebazaren",
+    description: "Kom til genbrugsgavemarked og find gratis gaver til børn og voksne. Julegaver, adventsgaver, pakkelegsgaver eller mandelgaver. Uanset hvilken slags, du søger er du velkommen. Hvis du selv har noget du vil give videre, som kunne blive til en god gave for en anden, så tag det med. Du kan pakke dine gaver flot ind med genbrugspapir, -tekstiler og -bånd. Nyd en forfriskning og ønsk glædelig jul til dine naboer, skolekammerater, venner eller andre fra dit lokalområde. Det er gratis at være med."
+  },
 ];
